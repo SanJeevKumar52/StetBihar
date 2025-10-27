@@ -1,0 +1,1012 @@
+[
+  {
+    "question": "Which of the following is not a feature of DBMS?",
+    "options": [
+      "Data redundancy control",
+      "Backup and recovery",
+      "File encryption",
+      "Access control"
+    ],
+    "answer": 2,
+    "explanation": "Standard DBMSs don't directly provide file encryption; data redundancy, backup/recovery, and access control are core DBMS features."
+  },
+  {
+    "question": "What does the term 'normalization' refer to in DBMS?",
+    "options": [
+      "Creating indexes",
+      "Eliminating data redundancy",
+      "Creating backups",
+      "Encrypting data"
+    ],
+    "answer": 1,
+    "explanation": "Normalization is organizing database tables to reduce redundancy and ensure data integrity."
+  },
+  {
+    "question": "Which level of DBMS architecture deals with physical storage of data?",
+    "options": [
+      "External Level",
+      "Conceptual Level",
+      "Internal Level",
+      "Logical Level"
+    ],
+    "answer": 2,
+    "explanation": "The internal level is concerned with the actual physical storage of data in a DBMS."
+  },
+  {
+    "question": "Which of the following is a DDL command?",
+    "options": ["UPDATE", "INSERT", "CREATE", "SELECT"],
+    "answer": 2,
+    "explanation": "CREATE is a Data Definition Language command used to define database schema structures."
+  },
+  {
+    "question": "Which of the following ensures referential integrity?",
+    "options": ["Primary Key", "Foreign Key", "Composite Key", "Unique Key"],
+    "answer": 1,
+    "explanation": "Foreign keys maintain referential integrity by linking child tables to parent tables."
+  },
+  {
+    "question": "Which command is used to remove all records from a table but not the table itself?",
+    "options": ["DROP", "TRUNCATE", "DELETE", "ERASE"],
+    "answer": 1,
+    "explanation": "TRUNCATE removes all rows in a table but retains the table structure for future use."
+  },
+  {
+    "question": "In DBMS, what does 'schema' mean?",
+    "options": [
+      "Physical storage",
+      "Logical database design",
+      "A table row",
+      "A query"
+    ],
+    "answer": 1,
+    "explanation": "Schema defines the logical design and structure of a database in DBMS."
+  },
+  {
+    "question": "Which of the following is NOT an advantage of DBMS?",
+    "options": [
+      "Data consistency",
+      "Program-data independence",
+      "Reduced data security",
+      "Minimized data redundancy"
+    ],
+    "answer": 2,
+    "explanation": "DBMS enhances data security; so, reduced data security is NOT an advantage."
+  },
+  {
+    "question": "What is a 'record' in a database table?",
+    "options": ["A column", "A row", "A schema", "A field"],
+    "answer": 1,
+    "explanation": "A record, also called a tuple, is a row in a DBMS table and holds fields' values."
+  },
+  {
+    "question": "What is the function of the 'JOIN' operation?",
+    "options": [
+      "Combines data from multiple tables",
+      "Deletes data from a table",
+      "Creates a new table",
+      "Alters a table"
+    ],
+    "answer": 0,
+    "explanation": "JOIN is used for combining rows from two or more tables based on a related column."
+  },
+  {
+    "question": "Which command is used to add a new record in SQL?",
+    "options": ["INSERT", "ADD", "UPDATE", "APPEND"],
+    "answer": 0,
+    "explanation": "INSERT is the SQL command to add a new data row in a table."
+  },
+  {
+    "question": "Which of the following is used to uniquely identify each row in a table?",
+    "options": ["Index", "Primary Key", "Foreign Key", "Super Key"],
+    "answer": 1,
+    "explanation": "Primary key values are unique for each row and identify records in a table."
+  },
+  {
+    "question": "Which is a DML (Data Manipulation Language) command?",
+    "options": ["DROP", "ALTER", "SELECT", "TRUNCATE"],
+    "answer": 2,
+    "explanation": "SELECT is a DML command used to retrieve data from tables in a DBMS."
+  },
+  {
+    "question": "Which of the following is an example of hierarchical DBMS?",
+    "options": ["MySQL", "IBM IMS", "MongoDB", "Oracle"],
+    "answer": 1,
+    "explanation": "IBM IMS is a hierarchical database management system; MySQL and Oracle are relational."
+  },
+  {
+    "question": "What does 'atomicity' in DBMS mean?",
+    "options": [
+      "All transactions are completed or none are",
+      "Data is consistent",
+      "Data is isolated",
+      "Data is durable"
+    ],
+    "answer": 0,
+    "explanation": "Atomicity ensures each transaction is treated as a single unit, fully completed or fully failed."
+  },
+  {
+    "question": "Which of the following statements about views is correct?",
+    "options": [
+      "Views store data physically",
+      "Views are permanent tables",
+      "Views do not store data physically",
+      "Views can be indexed"
+    ],
+    "answer": 2,
+    "explanation": "Views are virtual tables; they do not hold data physically, but present data from actual tables."
+  },
+  {
+    "question": "What is a 'candidate key'?",
+    "options": [
+      "A key that can uniquely identify a record",
+      "A non-unique key",
+      "A foreign key",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "Candidate keys can uniquely identify table records; one is chosen as primary key."
+  },
+  {
+    "question": "Which command is used to modify an existing record?",
+    "options": ["CHANGE", "UPDATE", "INSERT", "ALTER"],
+    "answer": 1,
+    "explanation": "UPDATE is the DML command that modifies existing data in a table."
+  },
+  {
+    "question": "Which of these is responsible for enforcing database rules in DBMS?",
+    "options": ["Constraints", "Reports", "Indexes", "Triggers"],
+    "answer": 0,
+    "explanation": "Constraints (like NOT NULL, UNIQUE) enforce rules on the data in a DBMS."
+  },
+  {
+    "question": "What is meant by 'data independence'?",
+    "options": [
+      "Ability to change data without affecting applications",
+      "Ability to change software easily",
+      "Ability to access any data",
+      "Ability to create backups"
+    ],
+    "answer": 0,
+    "explanation": "Data independence in DBMS means application programs are unaffected by changes in data structure."
+  },
+  {
+    "question": "Which data model uses entities and relationships?",
+    "options": [
+      "Hierarchical model",
+      "Entity-Relationship model",
+      "Network model",
+      "Object-oriented model"
+    ],
+    "answer": 1,
+    "explanation": "The E-R model represents data using entities and the relationships between them."
+  },
+  {
+    "question": "What is a 'foreign key'?",
+    "options": [
+      "A key used globally",
+      "A field linking one table to another",
+      "An encrypted key",
+      "A temporary key"
+    ],
+    "answer": 1,
+    "explanation": "A foreign key is a field in one table that refers to the primary key in another table."
+  },
+  {
+    "question": "Which of the following commands removes the table structure as well as its data?",
+    "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+    "answer": 0,
+    "explanation": "DROP deletes the entire table structure and the data it contains."
+  },
+  {
+    "question": "Which property ensures that transactions do not interfere with each other?",
+    "options": ["Consistency", "Atomicity", "Isolation", "Durability"],
+    "answer": 2,
+    "explanation": "Isolation ensures that transactions operate independently without interference."
+  },
+  {
+    "question": "Which of the following is NOT a DBMS?",
+    "options": ["Oracle", "Microsoft Access", "Linux", "MySQL"],
+    "answer": 2,
+    "explanation": "Linux is an operating system, not a DBMS."
+  },
+  {
+    "question": "What is an index in DBMS used for?",
+    "options": [
+      "To sort records",
+      "To retrieve data faster",
+      "To back up data",
+      "To link tables"
+    ],
+    "answer": 1,
+    "explanation": "Indexes improve the speed of data retrieval operations on a database table."
+  },
+  {
+    "question": "What is the main purpose of a Database Management System (DBMS)?",
+    "options": [
+      "To manage and organize data efficiently",
+      "To design hardware circuits",
+      "To create network topologies",
+      "To write operating systems"
+    ],
+    "answer": 0,
+    "explanation": "A DBMS is used to efficiently store, manage, and retrieve data in databases, ensuring security and integrity of information."
+  },
+  {
+    "question": "Which key uniquely identifies each record in a database table?",
+    "options": ["Primary Key", "Foreign Key", "Super Key", "Composite Key"],
+    "answer": 0,
+    "explanation": "A primary key is a unique identifier for a record in a database table; each table has only one primary key."
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Sequential Query Language",
+      "Standard Query Level",
+      "Simple Query Logic"
+    ],
+    "answer": 0,
+    "explanation": "SQL stands for Structured Query Language, used for managing and manipulating relational databases."
+  },
+  {
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "options": ["SELECT", "GET", "PICK", "EXTRACT"],
+    "answer": 0,
+    "explanation": "SELECT is the standard SQL command for fetching data from one or more tables in a database."
+  },
+  {
+    "question": "Which normal form eliminates partial dependency?",
+    "options": [
+      "First Normal Form",
+      "Second Normal Form",
+      "Third Normal Form",
+      "Boyce-Codd Normal Form"
+    ],
+    "answer": 1,
+    "explanation": "Second Normal Form (2NF) removes partial dependencies, which means every non-prime attribute is fully dependent on the primary key."
+  },
+  {
+    "question": "Which property of transactions ensures that all operations are completed successfully or not at all?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "answer": 0,
+    "explanation": "Atomicity means a transaction is all-or-nothing: either all its operations are done or none is, ensuring data integrity."
+  },
+  {
+    "question": "What is the role of a Foreign Key in a relational database?",
+    "options": [
+      "It links tables and ensures referential integrity",
+      "It generates unique numbers",
+      "It sorts records",
+      "It performs queries"
+    ],
+    "answer": 0,
+    "explanation": "A foreign key is a field that creates a relationship between two tables, maintaining referential integrity of data."
+  },
+  {
+    "question": "Which of these is NOT a type of SQL command?",
+    "options": ["DML", "DDL", "DCL", "GCL"],
+    "answer": 3,
+    "explanation": "GCL is not an SQL command type. SQL commands are categorized as DML, DDL, DCL, and TCL."
+  },
+  {
+    "question": "Which of the following is an example of a DBMS software?",
+    "options": ["Oracle", "Linux", "Visual Studio", "Adobe Photoshop"],
+    "answer": 0,
+    "explanation": "Oracle is a relational database management system. The others are not DBMS software."
+  },
+  {
+    "question": "In a relational database, a 'tuple' is:",
+    "options": [
+      "A column in a table",
+      "A row in a table",
+      "A table name",
+      "A field name"
+    ],
+    "answer": 1,
+    "explanation": "In the context of relational databases, a tuple represents a single row or record in a table."
+  },
+  {
+    "question": "Which database model organizes data in a tree-like structure?",
+    "options": [
+      "Hierarchical model",
+      "Network model",
+      "Relational model",
+      "Object-oriented model"
+    ],
+    "answer": 0,
+    "explanation": "The hierarchical model arranges data in a tree-like structure with parent and child relationships."
+  },
+  {
+    "question": "Which of the following is a multi-user database management system?",
+    "options": [
+      "MS Access",
+      "Oracle",
+      "FoxPro",
+      "DBase"
+    ],
+    "answer": 1,
+    "explanation": "Oracle is an example of a multi-user DBMS, supporting multiple concurrent users."
+  },
+  {
+    "question": "What is meant by data integrity?",
+    "options": [
+      "Backup and recovery of data",
+      "Accuracy and consistency of stored data",
+      "Database security",
+      "Database design"
+    ],
+    "answer": 1,
+    "explanation": "Data integrity refers to maintaining the accuracy and consistency of data in the database."
+  },
+  {
+    "question": "Which SQL clause is used to eliminate duplicate rows in a SELECT query?",
+    "options": [
+      "UNIQUE",
+      "NO DUPLICATES",
+      "DISTINCT",
+      "REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "The DISTINCT clause in SQL eliminates duplicate results from a SELECT statement."
+  },
+  {
+    "question": "What does the NOT NULL constraint do?",
+    "options": [
+      "Ensures a column must have a value",
+      "All values in a column are unique",
+      "Creates a view",
+      "Establishes foreign key"
+    ],
+    "answer": 0,
+    "explanation": "NOT NULL ensures that a column cannot have a NULL value in any row."
+  },
+  {
+    "question": "Which operation combines matching tuples from two relations?",
+    "options": [
+      "Intersection",
+      "Cartesian product",
+      "Natural join",
+      "Union"
+    ],
+    "answer": 2,
+    "explanation": "A natural join combines rows from two relations where the joining attributes are equal."
+  },
+  {
+    "question": "What is the main objective of using a secondary index?",
+    "options": [
+      "Improve data security",
+      "Speed up data retrieval",
+      "Reduce storage space",
+      "Normalize data"
+    ],
+    "answer": 1,
+    "explanation": "Secondary indexes are used to improve the speed of data retrieval operations."
+  },
+  {
+    "question": "Which language is used for defining the structure of a database?",
+    "options": [
+      "DML",
+      "DDL",
+      "DCL",
+      "TCL"
+    ],
+    "answer": 1,
+    "explanation": "DDL (Data Definition Language) is used to define the schema or structure of a database."
+  },
+  {
+    "question": "In SQL, which command is used to remove a record from a table?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "ERASE",
+      "DROP"
+    ],
+    "answer": 1,
+    "explanation": "The DELETE command removes specific records from a table based on a condition."
+  },
+  {
+    "question": "Which of the following is an example of a DBMS command for controlling permissions?",
+    "options": [
+      "GRANT",
+      "SELECT",
+      "UPDATE",
+      "UNION"
+    ],
+    "answer": 0,
+    "explanation": "GRANT is a DCL command used to give privileges to users in a database."
+  },
+  {
+    "question": "Which normalization form removes transitive dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "4NF"
+    ],
+    "answer": 2,
+    "explanation": "Third Normal Form (3NF) eliminates transitive dependency from a database table."
+  },
+  {
+    "question": "Which of the following constraints is used to enforce uniqueness in a column?",
+    "options": [
+      "UNIQUE",
+      "NOT NULL",
+      "CHECK",
+      "FOREIGN"
+    ],
+    "answer": 0,
+    "explanation": "The UNIQUE constraint ensures all values in a column or set of columns are different."
+  },
+  {
+    "question": "What is a composite key?",
+    "options": [
+      "A primary key from a different table",
+      "A key consisting of two or more attributes",
+      "A candidate key with duplicate values",
+      "A single field used as a key"
+    ],
+    "answer": 1,
+    "explanation": "A composite key is a primary key formed by combining two or more columns."
+  },
+  {
+    "question": "In a database, which element is considered an 'entity'?",
+    "options": [
+      "Row",
+      "Column",
+      "Table",
+      "Data object"
+    ],
+    "answer": 3,
+    "explanation": "An entity refers to a real-world object or concept represented in the database."
+  },
+  {
+    "question": "Which SQL keyword is used with WHERE to match a pattern in a string?",
+    "options": [
+      "LIKE",
+      "PATTERN",
+      "MATCH",
+      "FIND"
+    ],
+    "answer": 0,
+    "explanation": "The LIKE operator is used in SQL with WHERE to search for a specified pattern in a column."
+  },
+  {
+    "question": "Which term describes updating data at several locations in a distributed database?",
+    "options": [
+      "Concurrency",
+      "Replication",
+      "Redundancy",
+      "Clustering"
+    ],
+    "answer": 1,
+    "explanation": "Replication is the process of copying and maintaining database objects in multiple databases."
+  },
+  {
+    "question": "What do you call a property or characteristic of an entity?",
+    "options": [
+      "Tuple",
+      "Attribute",
+      "Instance",
+      "Relation"
+    ],
+    "answer": 1,
+    "explanation": "An attribute defines a property or characteristic of an entity."
+  },
+  {
+    "question": "Which command is used to change the structure of a table?",
+    "options": [
+      "MODIFY",
+      "UPDATE",
+      "ALTER",
+      "CHANGE"
+    ],
+    "answer": 2,
+    "explanation": "The ALTER command in SQL is used to change the structure of an existing table."
+  },
+  {
+    "question": "Which clause is used in SELECT to filter rows?",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "FOR",
+      "BETWEEN"
+    ],
+    "answer": 1,
+    "explanation": "WHERE is used to specify a condition while selecting rows using a SELECT statement."
+  },
+  {
+    "question": "What is a surrogate key?",
+    "options": [
+      "A naturally occurring key",
+      "A user-defined key",
+      "A system-generated unique key",
+      "A candidate key"
+    ],
+    "answer": 2,
+    "explanation": "A surrogate key is an artificially generated key, usually by the DBMS, to uniquely identify a record."
+  },
+  {
+    "question": "Which term refers to a single value in a table?",
+    "options": [
+      "Tuple",
+      "Attribute",
+      "Field",
+      "Cell"
+    ],
+    "answer": 3,
+    "explanation": "A 'cell' is the intersection of a row and column, representing a single value in a table."
+  },
+  {
+    "question": "Which transaction property ensures permanent data saving after a commit?",
+    "options": [
+      "Durability",
+      "Consistency",
+      "Isolation",
+      "Atomicity"
+    ],
+    "answer": 0,
+    "explanation": "Durability ensures committed data is permanently saved to non-volatile storage, even after a system failure."
+  },
+  {
+    "question": "Which of the following models uses a graph structure to model data?",
+    "options": [
+      "Hierarchical",
+      "Network",
+      "Relational",
+      "Object"
+    ],
+    "answer": 1,
+    "explanation": "The network model organizes data using records and relationships in a graph structure."
+  },
+  {
+    "question": "Which operator is used to combine the results of two SELECT statements?",
+    "options": [
+      "JOIN",
+      "MERGE",
+      "UNION",
+      "IN"
+    ],
+    "answer": 2,
+    "explanation": "UNION combines the results of two or more SELECT statements into a single result."
+  },
+  {
+    "question": "Which of the following best describes a foreign key constraint?",
+    "options": [
+      "Ensures values are unique",
+      "Ensures a value exists in the referenced table",
+      "Ensures values are not null",
+      "Ensures table structure is fixed"
+    ],
+    "answer": 1,
+    "explanation": "A foreign key constraint ensures that a value exists as a primary key in another table."
+  },
+  {
+    "question": "Which feature of DBMS protects data from unauthorized access?",
+    "options": [
+      "Data mining",
+      "Constraint",
+      "Access control",
+      "Normalization"
+    ],
+    "answer": 2,
+    "explanation": "Access control mechanisms restrict data access to authorized users only."
+  },
+   {
+    "question": "Which command in SQL is used to change the name of a table?",
+    "options": [
+      "CHANGE",
+      "RENAME",
+      "MODIFY",
+      "UPDATE"
+    ],
+    "answer": 1,
+    "explanation": "The RENAME command is used in SQL to change the table name structure."
+  },
+  {
+    "question": "What does the term 'entity set' refer to in DBMS?",
+    "options": [
+      "A collection of similar entities",
+      "A single row in a table",
+      "A primary key",
+      "A table schema"
+    ],
+    "answer": 0,
+    "explanation": "An entity set is a group of similar entities and forms the basis for a table in a relational database."
+  },
+  {
+    "question": "Which of these best describes a 'relationship' in E-R modelling?",
+    "options": [
+      "A table in a database",
+      "A link between entities",
+      "A primary key in a table",
+      "A database trigger"
+    ],
+    "answer": 1,
+    "explanation": "A relationship in an ER model shows how two or more entities are logically associated with each other."
+  },
+  {
+    "question": "Which of the following is a property of the relational model?",
+    "options": [
+      "Data is stored as nodes",
+      "Data is stored as tables",
+      "Data is stored as objects",
+      "Data is stored using pointers"
+    ],
+    "answer": 1,
+    "explanation": "In the relational model, data is stored in the form of tables (relations)."
+  },
+  {
+    "question": "Which of the following is NOT a valid SQL data type?",
+    "options": [
+      "INTEGER",
+      "CHAR",
+      "DATE",
+      "STRING"
+    ],
+    "answer": 3,
+    "explanation": "STRING is not a standard SQL data type; CHAR and VARCHAR are used for string data."
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "Combine rows based on common column values",
+      "Filter rows",
+      "Delete rows",
+      "Update rows"
+    ],
+    "answer": 0,
+    "explanation": "GROUP BY is used to group rows sharing a property for aggregate functions."
+  },
+  {
+    "question": "Which SQL aggregate function returns the number of rows in a table?",
+    "options": [
+      "SUM()",
+      "AVG()",
+      "COUNT()",
+      "MAX()"
+    ],
+    "answer": 2,
+    "explanation": "COUNT() returns the total number of rows that match the specified criteria."
+  },
+  {
+    "question": "Which one of the following is an example of a binary relationship?",
+    "options": [
+      "Student enrolls in Course",
+      "Teacher supervises Student in Project in Department",
+      "Person has Name",
+      "City"
+    ],
+    "answer": 0,
+    "explanation": "A binary relationship connects exactly two entity types."
+  },
+  {
+    "question": "A field in a table that is foreign key can refer to",
+    "options": [
+      "Primary key of the same table",
+      "Primary key of another table",
+      "Both the above",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "A foreign key can reference the primary key either in the same table (self-reference) or another table."
+  },
+  {
+    "question": "Which SQL keyword is used to sort the result-set?",
+    "options": [
+      "ORDER BY",
+      "SORT BY",
+      "GROUP BY",
+      "ARRANGE"
+    ],
+    "answer": 0,
+    "explanation": "ORDER BY is used in SQL to display sorted results by specified column(s)."
+  },
+  {
+    "question": "In an ER diagram, what does a diamond symbol represent?",
+    "options": [
+      "Entity set",
+      "Relationship set",
+      "Attribute",
+      "Key"
+    ],
+    "answer": 1,
+    "explanation": "The diamond symbol in ER diagrams denotes a relationship set."
+  },
+  {
+    "question": "Which of the following removes duplicate rows from the result set?",
+    "options": [
+      "UNIQUE",
+      "ALL",
+      "DISTINCT",
+      "REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "DISTINCT removes duplicate values in the SELECT statement result set."
+  },
+  {
+    "question": "What does the term 'referential integrity' mean in DBMS?",
+    "options": [
+      "Ensuring unique values in columns",
+      "Enforcing valid linkages between tables",
+      "Automatic data backups",
+      "Total database consistency"
+    ],
+    "answer": 1,
+    "explanation": "Referential integrity ensures that a foreign key value always points to an existing, valid row in a referenced table."
+  },
+  {
+    "question": "Which of these SQL statements will permanently delete a table?",
+    "options": [
+      "DELETE TABLE students;",
+      "REMOVE TABLE students;",
+      "DROP TABLE students;",
+      "ERASE TABLE students;"
+    ],
+    "answer": 2,
+    "explanation": "DROP TABLE command is used to remove the table definition and all data from the database."
+  },
+  {
+    "question": "Which structure allows the fastest access to records in a DBMS?",
+    "options": [
+      "Linked List",
+      "B-Tree Index",
+      "Array",
+      "Stack"
+    ],
+    "answer": 1,
+    "explanation": "B-Tree indexing enables very fast searching and retrieval of records."
+  },
+  {
+    "question": "Which isolation level's strictest ensures no dirty, non-repeatable, or phantom reads?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "answer": 3,
+    "explanation": "Serializable is the strictest isolation level, preventing all anomalies including dirty, non-repeatable, and phantom reads."
+  },
+  {
+    "question": "What does 'deadlock' mean in DBMS?",
+    "options": [
+      "Database crash",
+      "Two or more transactions waiting indefinitely for each other",
+      "Data corruption",
+      "Lost updates"
+    ],
+    "answer": 1,
+    "explanation": "Deadlock is a situation where transactions wait forever for each other's resources to be released."
+  },
+  {
+    "question": "Which one is NOT a logical database model?",
+    "options": [
+      "Hierarchical",
+      "Relational",
+      "Network",
+      "File-based"
+    ],
+    "answer": 3,
+    "explanation": "File-based is a data storage method, not a logical database model."
+  },
+  {
+    "question": "Which SQL function returns the largest value from a column?",
+    "options": [
+      "MAX()",
+      "MAXIMUM()",
+      "BIGGEST()",
+      "LARGEST()"
+    ],
+    "answer": 0,
+    "explanation": "MAX() returns the maximum value from the specified column."
+  },
+  {
+    "question": "Which term is used for temporary data storage in SQL?",
+    "options": [
+      "Temp Table",
+      "Buffer",
+      "Cache",
+      "Hold"
+    ],
+    "answer": 0,
+    "explanation": "Temp Table is used for temporary data storage in SQL sessions."
+  },
+  {
+    "question": "Which of the following can improve performance in DBMS queries?",
+    "options": [
+      "Normalization",
+      "Indexing",
+      "Redundancy",
+      "Backup"
+    ],
+    "answer": 1,
+    "explanation": "Indexing creates additional data structures for faster record searching and performance."
+  },
+  {
+    "question": "What is the default sorting order for the ORDER BY clause?",
+    "options": [
+      "Descending",
+      "Ascending",
+      "Random",
+      "Alphabetical"
+    ],
+    "answer": 1,
+    "explanation": "Ascending (ASC) is the default sorting order in the ORDER BY clause in SQL."
+  },
+  {
+    "question": "Which clause is used to filter aggregated results in SQL?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "HAVING",
+      "WHERE"
+    ],
+    "answer": 2,
+    "explanation": "HAVING clause is used to filter groups or aggregates after a GROUP BY statement."
+  },
+  {
+    "question": "In ER modeling, what type of attribute can take multiple values?",
+    "options": [
+      "Derived",
+      "Multivalued",
+      "Composite",
+      "Simple"
+    ],
+    "answer": 1,
+    "explanation": "Multivalued attributes can hold more than one value; in ER diagrams, these are depicted with double ovals."
+  },
+  {
+    "question": "Which of the following is not an SQL JOIN type?",
+    "options": [
+      "INNER JOIN",
+      "OUTER JOIN",
+      "CROSS JOIN",
+      "GROUP JOIN"
+    ],
+    "answer": 3,
+    "explanation": "GROUP JOIN is not a recognized SQL JOIN type; others are valid JOIN statements."
+  },
+  {
+    "question": "What is a DBMS?",
+    "options": [
+      "Database Management Software",
+      "Database Modeling System",
+      "Database Management System",
+      "Database Model Software"
+    ],
+    "answer": 2,
+    "explanation": "DBMS stands for Database Management System, which manages databases efficiently."
+  },
+  {
+    "question": "Which of the following is NOT a component of a DBMS?",
+    "options": [
+      "Query Processor",
+      "Database Engine",
+      "Database Table",
+      "Indexing Engine"
+    ],
+    "answer": 2,
+    "explanation": "Database Table is a data structure, not a DBMS component."
+  },
+  {
+    "question": "Which model uses a tree structure to represent data relationships?",
+    "options": [
+      "Relational Model",
+      "Network Model",
+      "Hierarchical Model",
+      "Object-Oriented Model"
+    ],
+    "answer": 2,
+    "explanation": "Hierarchical Model organizes data using a tree-like structure."
+  },
+  {
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "answer": 0,
+    "explanation": "SELECT is used to query and retrieve data."
+  },
+  {
+    "question": "What is normalization?",
+    "options": [
+      "Creating indexes",
+      "Removing data redundancy",
+      "Backing up data",
+      "Encrypting data"
+    ],
+    "answer": 1,
+    "explanation": "Normalization organizes data to reduce redundancy and improve integrity."
+  },
+  {
+    "question": "What is the purpose of a primary key?",
+    "options": [
+      "Link tables",
+      "Uniquely identify rows",
+      "Store duplicate values",
+      "Encrypt data"
+    ],
+    "answer": 1,
+    "explanation": "A primary key uniquely identifies each row in a table."
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Level",
+      "Sequential Query Language"
+    ],
+    "answer": 0,
+    "explanation": "SQL stands for Structured Query Language."
+  },
+  {
+    "question": "Which command deletes all rows but not the table structure?",
+    "options": [
+      "DELETE",
+      "TRUNCATE",
+      "DROP",
+      "REMOVE"
+    ],
+    "answer": 1,
+    "explanation": "TRUNCATE removes all rows without dropping the table."
+  },
+  {
+    "question": "Which key enforces referential integrity between two tables?",
+    "options": [
+      "Primary Key",
+      "Foreign Key",
+      "Candidate Key",
+      "Composite Key"
+    ],
+    "answer": 1,
+    "explanation": "Foreign Key establishes and enforces a link between tables."
+  },
+  {
+    "question": "What is a tuple in DBMS?",
+    "options": [
+      "A table",
+      "A column",
+      "A row",
+      "A database schema"
+    ],
+    "answer": 2,
+    "explanation": "A tuple is a single row in a table."
+  },
+  {
+    "question": "Which of the following is NOT a type of SQL command?",
+    "options": [
+      "DML",
+      "DDL",
+      "DCL",
+      "RML"
+    ],
+    "answer": 3,
+    "explanation": "RML is not a valid SQL command type."
+  },
+  {
+    "question": "Which property ensures transactions are completed fully or not at all?",
+    "options": [
+      "Durability",
+      "Atomicity",
+      "Isolation",
+      "Consistency"
+    ],
+    "answer": 1,
+    "explanation": "Atomicity means transactions are all or nothing."
+  },
+  {
+    "question": "What does the JOIN operation do in SQL?",
+    "options": [
+      "Deletes records",
+      "Combines rows from tables",
+      "Adds columns",
+      "Creates views"
+    ],
+    "answer": 1,
+    "explanation": "JOIN combines rows from two or more tables based on related columns."
+  }
+]

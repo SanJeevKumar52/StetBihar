@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5a67d8;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #4a5568;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .subject-selection {
+            margin: 30px 0;
+        }
+
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .subject-card {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .subject-card:hover {
+            border-color: #5a67d8;
+            background: #f0f4ff;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(90, 103, 216, 0.15);
+        }
+
+        .subject-card.selected {
+            border-color: #5a67d8;
+            background: #5a67d8;
+            color: white;
+        }
+
+        .subject-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .subject-name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .subject-info {
+            font-size: 14px;
+            color: #718096;
+        }
+
+        .subject-card.selected .subject-info {
+            color: #e2e8f0;
+        }
+
+        .btn {
+            background: #5a67d8;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(90, 103, 216, 0.3);
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #4c51bf;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(90, 103, 216, 0.4);
+        }
+
+        .btn:disabled {
+            background: #a0aec0;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 150px;
+            margin: 10px;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 10px;
+        }
+
+        .feature h3 {
+            color: #5a67d8;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .feature p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .selected-subject {
+            background: #c6f6d5;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .selected-subject.show {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the MCQ Quiz</h1>
+        <p>Choose a subject to test your knowledge. Select from various topics and challenge yourself with our interactive multiple-choice quizzes!</p>
+        
+        <div class="subject-selection">
+            <h2 style="color: #5a67d8; margin-bottom: 20px;">Choose Your Subject</h2>
+            
+            <div class="subject-grid">
+                <div class="subject-card" onclick="selectSubject('questions')">
+                    <div class="subject-icon">🌐</div>
+                    <div class="subject-name">Dbms</div>
+                </div>
+                
+                <div class="subject-card" onclick="selectSubject('os')">
+                    <div class="subject-icon">🎨</div>
+                    <div class="subject-name">Os</div>
+                </div>
+                
+                <div class="subject-card" onclick="selectSubject('CN')">
+                    <div class="subject-icon">⚡</div>
+                    <div class="subject-name">Cn</div>
+                    
+                </div>
+                
+                <div class="subject-card" onclick="selectSubject('dl')">
+                    <div class="subject-icon">🐍</div>
+                    <div class="subject-name">Dl</div>
+                    
+                </div>
+            </div>
+            
+            <div class="selected-subject" id="selected-subject">
+                <strong>Selected: <span id="selected-subject-name"></span></strong>
+                <p style="margin: 5px 0 0 0; font-size: 14px;">Click Start Quiz to begin your test</p>
+            </div>
+            
+            <button class="btn" id="start-btn" onclick="startQuiz()" disabled>Start Quiz</button>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>Multiple Subjects</h3>
+                <p>Choose from HTML, CSS, JavaScript, and Python</p>
+            </div>
+            <div class="feature">
+                <h3>Progress Tracking</h3>
+                <p>See which questions you've answered</p>
+            </div>
+            <div class="feature">
+                <h3>Learn from Mistakes</h3>
+                <p>Get explanations for wrong answers</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedSubject = null;
+
+        function selectSubject(subject) {
+            // Remove selected class from all cards
+            document.querySelectorAll('.subject-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            
+            // Add selected class to clicked card
+            event.currentTarget.classList.add('selected');
+            
+            // Update selected subject
+            selectedSubject = subject;
+            
+            // Enable start button and show selected subject
+            document.getElementById('start-btn').disabled = false;
+            
+            // Update selected subject display
+            const subjectName = getSubjectDisplayName(subject);
+            document.getElementById('selected-subject-name').textContent = subjectName;
+            document.getElementById('selected-subject').classList.add('show');
+        }
+
+        function getSubjectDisplayName(subject) {
+            const names = {
+                'html': 'HTML',
+                'css': 'CSS',
+                'javascript': 'JavaScript',
+                'dl': 'dl'
+            };
+            return names[subject] || subject;
+        }
+
+        function startQuiz() {
+            if (!selectedSubject) {
+                alert('Please select a subject first!');
+                return;
+            }
+            
+            // Store selected subject in localStorage to pass to quiz page
+            localStorage.setItem('selectedSubject', selectedSubject);
+            window.location.href = "quiz.html";
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Clear any previously selected subject
+            localStorage.removeItem('selectedSubject');
+        });
+    </script>
+</body>
+</html>

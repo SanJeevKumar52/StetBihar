@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "What is the primary function of an Operating System?",
+    "options": [
+      "Data processing",
+      "Resource management",
+      "User authentication",
+      "Word processing"
+    ],
+    "answer": 1,
+    "explanation": "An Operating System manages hardware and software resources in a computer system."
+  },
+  {
+    "question": "Which one of the following is an example of an Operating System?",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "MS Windows",
+      "MS Access"
+    ],
+    "answer": 2,
+    "explanation": "MS Windows is an example of an Operating System."
+  },
+  {
+    "question": "Which component of OS manages the execution of multiple programs?",
+    "options": [
+      "File Manager",
+      "Process Scheduler",
+      "Device Driver",
+      "ROM"
+    ],
+    "answer": 1,
+    "explanation": "The process scheduler manages execution of multiple programs or processes."
+  },
+  {
+    "question": "Which of the following is not a type of Operating System?",
+    "options": [
+      "Batch OS",
+      "Real-time OS",
+      "Distributed OS",
+      "Combinational OS"
+    ],
+    "answer": 3,
+    "explanation": "Combinational OS is not a recognized OS type."
+  },
+  {
+    "question": "Which command interpreter is also known as?",
+    "options": [
+      "Compiler",
+      "Monitor",
+      "Shell",
+      "Kernel"
+    ],
+    "answer": 2,
+    "explanation": "Shell is also known as the command interpreter."
+  },
+  {
+    "question": "User interface provided by an OS may be",
+    "options": [
+      "Text-based",
+      "Graphical",
+      "Both",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Operating systems can provide both text-based (CLI) and graphical (GUI) interfaces."
+  },
+  {
+    "question": "Which item is not a component of an OS?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "Compiler",
+      "File System"
+    ],
+    "answer": 2,
+    "explanation": "Compiler is a programming tool, not a core OS component."
+  },
+  {
+    "question": "Which is the core of an Operating System?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "Command line",
+      "Bootstrap"
+    ],
+    "answer": 1,
+    "explanation": "The core component of the OS that has direct hardware control is the kernel."
+  },
+  {
+    "question": "Which OS is not open source?",
+    "options": [
+      "Linux",
+      "Windows",
+      "FreeBSD",
+      "Ubuntu"
+    ],
+    "answer": 1,
+    "explanation": "Windows is a proprietary operating system; Linux, FreeBSD, and Ubuntu are open source."
+  },
+  {
+    "question": "What is 'multitasking'?",
+    "options": [
+      "OS runs multiple programs simultaneously",
+      "User logs in to many computers",
+      "Multiple CPUs in one system",
+      "Running only one program at a time"
+    ],
+    "answer": 0,
+    "explanation": "Multitasking allows simultaneous execution of multiple programs."
+  },
+  {
+    "question": "Which is not a mobile operating system?",
+    "options": [
+      "Android",
+      "iOS",
+      "Windows 10",
+      "Blackberry OS"
+    ],
+    "answer": 2,
+    "explanation": "Windows 10 is primarily a desktop OS."
+  },
+  {
+    "question": "Which component schedules processes?",
+    "options": [
+      "Device Manager",
+      "Shell",
+      "Process Scheduler",
+      "File System"
+    ],
+    "answer": 2,
+    "explanation": "The process scheduler selects which process to run next."
+  },
+  {
+    "question": "In which OS do all users share the CPU time equally?",
+    "options": [
+      "Batch",
+      "Time-sharing",
+      "Real-time",
+      "Distributed"
+    ],
+    "answer": 1,
+    "explanation": "Time-sharing OS gives all users a small slice of CPU time."
+  },
+  {
+    "question": "Which of the following manages files in an OS?",
+    "options": [
+      "File Manager",
+      "Device Manager",
+      "Memory Manager",
+      "Process Scheduler"
+    ],
+    "answer": 0,
+    "explanation": "File Manager is responsible for file operations like creation, deletion, and access."
+  },
+  {
+    "question": "Which of these is a distributed operating system?",
+    "options": [
+      "MS-DOS",
+      "UNIX",
+      "Amoeba",
+      "Windows 98"
+    ],
+    "answer": 2,
+    "explanation": "Amoeba is a distributed operating system."
+  },
+  {
+    "question": "The process of freeing unused memory is called",
+    "options": [
+      "Swapping",
+      "Paging",
+      "Garbage Collection",
+      "Allocation"
+    ],
+    "answer": 2,
+    "explanation": "Garbage collection automatically frees memory that is no longer in use."
+  },
+  {
+    "question": "Which structure is used to organize files in an OS?",
+    "options": [
+      "Array",
+      "Tree",
+      "Loop",
+      "Grid"
+    ],
+    "answer": 1,
+    "explanation": "Files and directories are typically organized in a tree structure."
+  },
+  {
+    "question": "Which OS was the first to use the concept of virtual memory?",
+    "options": [
+      "Windows",
+      "UNIX",
+      "Linux",
+      "Atlas"
+    ],
+    "answer": 3,
+    "explanation": "Atlas was the first OS to implement virtual memory."
+  },
+  {
+    "question": "Which of these is NOT a job scheduling algorithm?",
+    "options": [
+      "FCFS",
+      "SJF",
+      "TCP",
+      "Round Robin"
+    ],
+    "answer": 2,
+    "explanation": "TCP is a network protocol, not a scheduling algorithm."
+  },
+  {
+    "question": "A real-time operating system is needed for",
+    "options": [
+      "Word processing",
+      "Embedded systems",
+      "Web browsing",
+      "Graphic designing"
+    ],
+    "answer": 1,
+    "explanation": "Real-time OS is used where response time is critical, like embedded systems."
+  },
+  {
+    "question": "Thrashing is related to",
+    "options": [
+      "Memory management",
+      "CPU scheduling",
+      "File system",
+      "Device drivers"
+    ],
+    "answer": 0,
+    "explanation": "Thrashing occurs when excessive swapping/paging happens due to insufficient memory."
+  },
+  {
+    "question": "A set of processes is deadlocked when",
+    "options": [
+      "Each process is waiting for another to release resources",
+      "Processes are all running",
+      "No processes are running",
+      "OS crashes"
+    ],
+    "answer": 0,
+    "explanation": "In deadlock, processes wait indefinitely for resources held by each other."
+  },
+  {
+    "question": "Round Robin scheduling is primarily used in",
+    "options": [
+      "Real-time OS",
+      "Time-sharing OS",
+      "Batch OS",
+      "Distributed OS"
+    ],
+    "answer": 1,
+    "explanation": "Round Robin ensures fair CPU allocation in time-sharing systems."
+  },
+  {
+    "question": "Which of these is a process state?",
+    "options": [
+      "Waiting",
+      "Forking",
+      "Parsing",
+      "Browsing"
+    ],
+    "answer": 0,
+    "explanation": "Waiting is a common process state in an OS (others: ready, running, terminated, etc.)."
+  },
+  {
+    "question": "Paging is a memory management technique to",
+    "options": [
+      "Break files into pages",
+      "Divide memory into fixed-sized blocks",
+      "Execute multiple processes",
+      "Encrypt memory"
+    ],
+    "answer": 1,
+    "explanation": "Paging divides memory into equal fixed-size blocks called pages."
+  },
+  {
+    "question": "A critical section refers to",
+    "options": [
+      "File access area",
+      "Code accessing shared resources",
+      "Kernel routine",
+      "Hardware circuit"
+    ],
+    "answer": 1,
+    "explanation": "The critical section is that part of a process accessing shared resources."
+  },
+  {
+    "question": "Which is used to prevent deadlock?",
+    "options": [
+      "Banker’s algorithm",
+      "Semaphore",
+      "Buffer",
+      "All of the above"
+    ],
+    "answer": 0,
+    "explanation": "Banker’s algorithm is used for deadlock avoidance."
+  },
+  {
+    "question": "Which method loads programs only when needed?",
+    "options": [
+      "Spooling",
+      "Demand paging",
+      "Multiprogramming",
+      "Swapping"
+    ],
+    "answer": 1,
+    "explanation": "Demand paging loads pages in memory only when required."
+  },
+  {
+    "question": "Semaphore is used for",
+    "options": [
+      "Device driver",
+      "File management",
+      "Process synchronization",
+      "CPU scheduling"
+    ],
+    "answer": 2,
+    "explanation": "Semaphore is a tool for synchronization between concurrent processes."
+  },
+  {
+    "question": "Process control block (PCB) contains",
+    "options": [
+      "Process state",
+      "Program counter",
+      "CPU registers",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "PCB holds all info about a process."
+  },
+  {
+    "question": "Which OS component manages the printer?",
+    "options": [
+      "File manager",
+      "Process manager",
+      "Device driver",
+      "Memory manager"
+    ],
+    "answer": 2,
+    "explanation": "Device drivers translate OS instructions for hardware like printers."
+  },
+  {
+    "question": "UNIX OS was developed by",
+    "options": [
+      "Microsoft",
+      "Bell Labs",
+      "Intel",
+      "IBM"
+    ],
+    "answer": 1,
+    "explanation": "UNIX was created at Bell Labs."
+  },
+  {
+    "question": "Which command is used for viewing files in DOS?",
+    "options": [
+      "ls",
+      "cat",
+      "view",
+      "dir"
+    ],
+    "answer": 3,
+    "explanation": "\"dir\" lists files in DOS."
+  },
+  {
+    "question": "Which file system was introduced with Windows NT?",
+    "options": [
+      "FAT",
+      "FAT32",
+      "NTFS",
+      "exFAT"
+    ],
+    "answer": 2,
+    "explanation": "NTFS was introduced to provide advanced features such as security and large volume support."
+  }, {
+    "question": "Which part of the operating system interacts directly with hardware?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "User Interface",
+      "Application"
+    ],
+    "answer": 1,
+    "explanation": "The kernel is responsible for interacting directly with the computer hardware."
+  },
+  {
+    "question": "What is the result when 'thrashing' occurs in the system?",
+    "options": [
+      "Increased CPU utilization",
+      "Excessive page faults",
+      "Intensive file access",
+      "Data loss"
+    ],
+    "answer": 1,
+    "explanation": "Thrashing results in excessive paging, leading to many page faults and degraded performance."
+  },
+  {
+    "question": "Which file system is used in modern Android operating systems?",
+    "options": [
+      "NTFS",
+      "exFAT",
+      "YAFFS2",
+      "FAT32"
+    ],
+    "answer": 2,
+    "explanation": "YAFFS2 (Yet Another Flash File System) is commonly used in Android devices."
+  },
+  {
+    "question": "The main objective of scheduling algorithms in an OS is:",
+    "options": [
+      "Fairness",
+      "Efficiency",
+      "Response time",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Scheduling algorithms aim to optimize multiple criteria like fairness, efficiency, and response time."
+  },
+  {
+    "question": "Which of the following is NOT a disk scheduling algorithm?",
+    "options": [
+      "SSTF",
+      "SCAN",
+      "LOOK",
+      "PAGING"
+    ],
+    "answer": 3,
+    "explanation": "PAGING is a memory management technique, not a disk scheduling algorithm."
+  },
+  {
+    "question": "Who is the father of Linux OS?",
+    "options": [
+      "Ken Thompson",
+      "Bill Gates",
+      "Linus Torvalds",
+      "Steve Jobs"
+    ],
+    "answer": 2,
+    "explanation": "Linus Torvalds is known as the creator (father) of Linux."
+  },
+  {
+    "question": "Which OS concept separates user programs from hardware?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "System call interface",
+      "File system"
+    ],
+    "answer": 2,
+    "explanation": "System call interface allows user programs to interact with the OS which directly deals with hardware."
+  },
+  {
+    "question": "A fork() system call in UNIX is used to",
+    "options": [
+      "Create a new file",
+      "Create a new process",
+      "Switch context",
+      "Terminate a process"
+    ],
+    "answer": 1,
+    "explanation": "fork() creates a new process by duplicating the calling process."
+  },
+  {
+    "question": "Which among the following is an example of a microkernel OS?",
+    "options": [
+      "MS-DOS",
+      "Mach",
+      "Linux",
+      "UNIX"
+    ],
+    "answer": 1,
+    "explanation": "Mach is a well-known example of a microkernel operating system."
+  },
+  {
+    "question": "Which of these is most closely associated with inter-process communication?",
+    "options": [
+      "Semaphores",
+      "Files",
+      "Threads",
+      "Segments"
+    ],
+    "answer": 0,
+    "explanation": "Semaphores help in synchronizing and managing inter-process communication."
+  },
+  {
+    "question": "Which memory allocation strategy is susceptible to external fragmentation?",
+    "options": [
+      "Paging",
+      "Segmentation",
+      "Demand paging",
+      "Swapping"
+    ],
+    "answer": 1,
+    "explanation": "Segmentation can result in external fragmentation."
+  },
+  {
+    "question": "Which of the following is not a valid process state?",
+    "options": [
+      "Ready",
+      "Suspended",
+      "Waiting",
+      "Deleted"
+    ],
+    "answer": 3,
+    "explanation": "Deleted is not a standard process state in OS process management."
+  },
+  {
+    "question": "What is the purpose of the boot loader?",
+    "options": [
+      "Load device drivers",
+      "Start the OS kernel",
+      "Create partitions",
+      "Format the hard drive"
+    ],
+    "answer": 1,
+    "explanation": "The boot loader loads and starts the OS kernel during system startup."
+  },
+  {
+    "question": "Virtual memory is",
+    "options": [
+      "An imaginary memory area",
+      "A mechanism to use disk as an extension of RAM",
+      "A physical RAM module",
+      "An input device"
+    ],
+    "answer": 1,
+    "explanation": "Virtual memory expands usable memory by using disk space as an extension of RAM."
+  },
+  {
+    "question": "Which scheduling algorithm always executes the process with the shortest burst time next?",
+    "options": [
+      "FCFS",
+      "Round Robin",
+      "SJF",
+      "Priority"
+    ],
+    "answer": 2,
+    "explanation": "Shortest Job First (SJF) executes the process with shortest burst time next."
+  },
+  {
+    "question": "Which OS tool is used to report error info when a process fails?",
+    "options": [
+      "Debugger",
+      "Log file",
+      "Kernel",
+      "Stack"
+    ],
+    "answer": 1,
+    "explanation": "Log files collect error/reporting information for OS process failures."
+  },
+  {
+    "question": "DMA stands for",
+    "options": [
+      "Direct Manipulation Access",
+      "Digital Memory Allocation",
+      "Direct Memory Access",
+      "Dynamic Memory Allocation"
+    ],
+    "answer": 2,
+    "explanation": "DMA allows certain hardware subsystems to access memory directly without CPU involvement."
+  },
+  {
+    "question": "Which system utility displays running processes in Windows?",
+    "options": [
+      "CHKDSK",
+      "Explorer",
+      "Task Manager",
+      "Services"
+    ],
+    "answer": 2,
+    "explanation": "Task Manager displays running process, resource usage, and performance in Windows."
+  },
+  {
+    "question": "Which among these is an example of a network OS?",
+    "options": [
+      "MS-DOS",
+      "NetWare",
+      "LINUX",
+      "UNIX"
+    ],
+    "answer": 1,
+    "explanation": "NetWare is designed specifically as a network OS."
+  },
+  {
+    "question": "Context switch refers to",
+    "options": [
+      "Changing the CPU from one process to another",
+      "Changing OS version",
+      "Switching users",
+      "Swapping RAM chips"
+    ],
+    "answer": 0,
+    "explanation": "Context switch is the OS operation of saving the state of one process and loading another."
+  },
+  {
+    "question": "Which is NOT a type of kernel?",
+    "options": [
+      "Microkernel",
+      "Monolithic kernel",
+      "Nano kernel",
+      "Hybrid kernel",
+      "Meta kernel"
+    ],
+    "answer": 4,
+    "explanation": "Meta kernel is not a recognized kernel type."
+  },
+  {
+    "question": "Interrupts are used to",
+    "options": [
+      "Handle events such as I/O completion",
+      "Break encryption",
+      "Increase CPU speed",
+      "Store data"
+    ],
+    "answer": 0,
+    "explanation": "OS uses interrupts to handle asynchronous events such as I/O or device signal."
+  },
+  {
+    "question": "Which among the following is the slowest storage?",
+    "options": [
+      "Register",
+      "Cache",
+      "RAM",
+      "Hard disk"
+    ],
+    "answer": 3,
+    "explanation": "Hard disk is the slowest among these storage options."
+  },
+  {
+    "question": "What is 'spooling'?",
+    "options": [
+      "Serial port polling",
+      "Simultaneous Peripheral Operations Online",
+      "Sound Processing",
+      "Special memory zone"
+    ],
+    "answer": 1,
+    "explanation": "Spooling allows overlap of I/O operations and computation by temporarily storing output data."
+  },
+  {
+    "question": "Which page replacement algorithm uses a circular buffer and reference bits?",
+    "options": [
+      "FIFO",
+      "Optimal",
+      "LRU",
+      "Clock"
+    ],
+    "answer": 3,
+    "explanation": "The clock algorithm, also called the second chance algorithm, uses a circular buffer."
+  },
+  {
+    "question": "Which is an example of a server OS?",
+    "options": [
+      "Windows Server",
+      "Android",
+      "Ubuntu Touch",
+      "iOS"
+    ],
+    "answer": 0,
+    "explanation": "Windows Server is designed specifically for servers."
+  },
+  {
+    "question": "Which mechanism is used for file protection in OS?",
+    "options": [
+      "Audit Trail",
+      "Access Rights",
+      "File Encryption",
+      "Backup"
+    ],
+    "answer": 1,
+    "explanation": "Access rights (permissions) are directly used for file protection in OS."
+  },
+  {
+    "question": "Which is not a mobile OS?",
+    "options": [
+      "iOS",
+      "Symbian",
+      "Linux Mint",
+      "Android"
+    ],
+    "answer": 2,
+    "explanation": "Linux Mint is a desktop OS; the others are mobile OS."
+  },
+  {
+    "question": "Which is true about embedded OS?",
+    "options": [
+      "They are highly resource intensive",
+      "Used in large servers",
+      "Designed for dedicated systems",
+      "Run on mainframes"
+    ],
+    "answer": 2,
+    "explanation": "Embedded OS are streamlined and used in dedicated devices (routers, smart TVs, etc)."
+  },
+   {
+    "question": "Which operating system uses a graphical user interface?",
+    "options": [
+      "Unix",
+      "MS-DOS",
+      "Windows",
+      "CP/M"
+    ],
+    "answer": 2,
+    "explanation": "Windows uses a GUI, while the others are command-line or text-based."
+  },
+  {
+    "question": "Which shell is commonly used in UNIX systems?",
+    "options": [
+      "CMD",
+      "Bash",
+      "PowerShell",
+      "Command.com"
+    ],
+    "answer": 1,
+    "explanation": "Bash is one of the most popular shells in UNIX and Linux."
+  },
+  {
+    "question": "What is process synchronization?",
+    "options": [
+      "Process killing",
+      "Coordinating execution of processes",
+      "Updating file permissions",
+      "Allocating device memory"
+    ],
+    "answer": 1,
+    "explanation": "Process synchronization coordinates concurrent execution to avoid conflicts."
+  },
+  {
+    "question": "In which scheduling algorithm is starvation possible?",
+    "options": [
+      "First Come First Serve (FCFS)",
+      "Round Robin",
+      "Priority Scheduling",
+      "Shortest Job First"
+    ],
+    "answer": 2,
+    "explanation": "In priority scheduling, starvation of low-priority processes can occur."
+  },
+  {
+    "question": "Which of these does not prevent deadlocks?",
+    "options": [
+      "Mutual exclusion",
+      "Hold and wait",
+      "No preemption",
+      "Circular wait"
+    ],
+    "answer": 0,
+    "explanation": "Mutual exclusion is a necessary condition for deadlock, not a prevention policy."
+  },
+  {
+    "question": "Which is an example of a server operating system?",
+    "options": [
+      "Windows Server",
+      "Android",
+      "Symbian",
+      "Blackberry OS"
+    ],
+    "answer": 0,
+    "explanation": "Windows Server is designed for server management."
+  },
+  {
+    "question": "What is IPC?",
+    "options": [
+      "Input Processing Cycle",
+      "Intra Process Communication",
+      "Inter Process Communication",
+      "Internal Processing Code"
+    ],
+    "answer": 2,
+    "explanation": "IPC stands for Inter Process Communication."
+  },
+  {
+    "question": "What is a monitor in the context of OS synchronization?",
+    "options": [
+      "Display device",
+      "Kernel routine",
+      "High-level synchronization construct",
+      "Device driver"
+    ],
+    "answer": 2,
+    "explanation": "A monitor is a high-level abstraction for synchronizing threads or processes."
+  },
+  {
+    "question": "The memory unit that communicates directly with the CPU is called",
+    "options": [
+      "Secondary memory",
+      "Auxiliary memory",
+      "Main memory",
+      "Backup memory"
+    ],
+    "answer": 2,
+    "explanation": "Main memory (RAM) communicates directly with the CPU."
+  },
+  {
+    "question": "Which device is NOT a storage device?",
+    "options": [
+      "CD-ROM",
+      "Printer",
+      "Hard disk",
+      "USB drive"
+    ],
+    "answer": 1,
+    "explanation": "A printer is an output device."
+  },
+  {
+    "question": "The device drivers are",
+    "options": [
+      "System software",
+      "Application software",
+      "Hardware",
+      "Firmware"
+    ],
+    "answer": 0,
+    "explanation": "Device drivers are specialized system software."
+  },
+  {
+    "question": "Time quantum is related to which scheduling algorithm?",
+    "options": [
+      "FCFS",
+      "Shortest Job First",
+      "Priority",
+      "Round Robin"
+    ],
+    "answer": 3,
+    "explanation": "Time quantum is the core parameter in Round Robin scheduling."
+  },
+  {
+    "question": "Which of the following is volatile memory?",
+    "options": [
+      "Hard disk",
+      "RAM",
+      "CD-ROM",
+      "Flash drive"
+    ],
+    "answer": 1,
+    "explanation": "RAM loses its contents when the power is turned off."
+  },
+  {
+    "question": "Which of these is not a function of an OS?",
+    "options": [
+      "Process management",
+      "Virus detection",
+      "Memory management",
+      "File management"
+    ],
+    "answer": 1,
+    "explanation": "Virus detection is typically handled by antivirus software, not by the OS itself."
+  },
+  {
+    "question": "Booting is the process of",
+    "options": [
+      "Formatting the hard drive",
+      "Starting the computer to load the OS",
+      "Installing application software",
+      "Refreshing RAM contents"
+    ],
+    "answer": 1,
+    "explanation": "Booting initializes hardware and loads the operating system."
+  },
+  {
+    "question": "What is fragmentation?",
+    "options": [
+      "Dividing a file into pieces",
+      "Wasting storage space due to improper allocation",
+      "Creating backups",
+      "Optimizing memory"
+    ],
+    "answer": 1,
+    "explanation": "Fragmentation is the loss/waste of storage space due to allocation & deletion of files."
+  },
+  {
+    "question": "In OS, swapping is",
+    "options": [
+      "Switching peripherals",
+      "Exchanging data between RAM and disk",
+      "Shutting down the computer",
+      "Booting the computer"
+    ],
+    "answer": 1,
+    "explanation": "Swapping moves processes between main memory and storage (disk)."
+  },
+  {
+    "question": "Which command in Windows opens Task Manager?",
+    "options": [
+      "Ctrl+Alt+Del",
+      "Alt+Tab",
+      "Ctrl+Shift+Q",
+      "Shift+Esc"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl+Alt+Del opens the security screen, offering access to Task Manager."
+  },
+  {
+    "question": "Which process scheduling algorithm may cause convoy effect?",
+    "options": [
+      "Round Robin",
+      "Priority",
+      "Shortest Job First",
+      "FCFS"
+    ],
+    "answer": 3,
+    "explanation": "FCFS can cause convoy effect, where short jobs wait behind long ones."
+  },
+  {
+    "question": "Which is a multi-user operating system?",
+    "options": [
+      "MS-DOS",
+      "UNIX",
+      "Windows 3.1",
+      "Single-user Linux"
+    ],
+    "answer": 1,
+    "explanation": "UNIX supports multiple users simultaneously."
+  },
+  {
+    "question": "An OS that responds to input instantly is called",
+    "options": [
+      "Real-time OS",
+      "Batch OS",
+      "Time-sharing OS",
+      "Distributed OS"
+    ],
+    "answer": 0,
+    "explanation": "Real-time operating systems respond quickly and predictably to inputs."
+  },
+  {
+    "question": "The main part of Linux OS is called",
+    "options": [
+      "Driver",
+      "Kernel",
+      "Shell",
+      "File System"
+    ],
+    "answer": 1,
+    "explanation": "Linux kernel is the core of the OS."
+  },
+  {
+    "question": "What type of software is an operating system?",
+    "options": [
+      "Application",
+      "Utility",
+      "System",
+      "Compiler"
+    ],
+    "answer": 2,
+    "explanation": "OS is categorized as system software."
+  },
+  {
+    "question": "Page fault occurs when",
+    "options": [
+      "Page is present in memory",
+      "Page is not present in memory",
+      "File is not found",
+      "Disk fails"
+    ],
+    "answer": 1,
+    "explanation": "A page fault happens when a process accesses a memory page not currently in RAM."
+  },
+  {
+    "question": "Paging is implemented with the help of",
+    "options": [
+      "Page table",
+      "File manager",
+      "Device manager",
+      "Boot loader"
+    ],
+    "answer": 0,
+    "explanation": "Page tables track the mapping between virtual and physical memory."
+  },
+  {
+    "question": "Which file system is commonly used in Windows OS?",
+    "options": [
+      "NTFS",
+      "EXT4",
+      "HFS+",
+      "YAFFS"
+    ],
+    "answer": 0,
+    "explanation": "NTFS (New Technology File System) is the main Windows OS file system."
+  },
+  {
+    "question": "Which of the following is NOT a function of an operating system?",
+    "options": [
+      "Memory management",
+      "File management",
+      "Virus detection",
+      "Process management"
+    ],
+    "answer": 2,
+    "explanation": "Virus detection is typically handled by antivirus software, not the OS itself."
+  },
+  {
+    "question": "The part of the operating system that interacts directly with hardware is called:",
+    "options": [
+      "Shell",
+      "Kernel",
+      "Command interpreter",
+      "System call"
+    ],
+    "answer": 1,
+    "explanation": "The kernel is the core component responsible for managing hardware resources."
+  },
+  {
+    "question": "Which of the following is a type of real-time operating system?",
+    "options": [
+      "Windows 10",
+      "Linux",
+      "RTLinux",
+      "MS-DOS"
+    ],
+    "answer": 2,
+    "explanation": "RTLinux is a real-time variant of Linux, designed for real-time applications."
+  },
+  {
+    "question": "Which scheduling algorithm provides the minimum average waiting time?",
+    "options": [
+      "FCFS",
+      "SJF",
+      "Priority",
+      "Round Robin"
+    ],
+    "answer": 1,
+    "explanation": "Shortest Job First (SJF) scheduling minimizes average waiting time."
+  },
+  {
+    "question": "In Round Robin scheduling, time quantum refers to:",
+    "options": [
+      "Infinite time slice",
+      "Fixed time slice",
+      "Variable time slice",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "Time quantum is a fixed time slice allocated to each process in Round Robin scheduling."
+  },
+  {
+    "question": "Deadlock occurs when:",
+    "options": [
+      "Processes wait indefinitely for resources",
+      "Processes share resources",
+      "No processes are waiting",
+      "CPU utilization is high"
+    ],
+    "answer": 0,
+    "explanation": "Deadlock is a situation where processes wait indefinitely for resources held by each other."
+  },
+  {
+    "question": "The kernel mode is sometimes called:",
+    "options": [
+      "Supervisor mode",
+      "User mode",
+      "Host mode",
+      "Guest mode"
+    ],
+    "answer": 0,
+    "explanation": "Kernel mode, also called supervisor mode, has full access to all hardware."
+  },
+  {
+    "question": "A process control block (PCB) contains:",
+    "options": [
+      "Process state",
+      "Program counter",
+      "CPU registers",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "PCB holds all relevant information about a process for execution."
+  },
+  {
+    "question": "Fragmentation is a problem related to:",
+    "options": [
+      "CPU scheduling",
+      "Memory management",
+      "File system management",
+      "Input/output management"
+    ],
+    "answer": 1,
+    "explanation": "Fragmentation causes inefficient use of memory space."
+  },
+  {
+    "question": "Virtual memory increases:",
+    "options": [
+      "Disk space",
+      "Physical memory",
+      "Perceived memory available",
+      "CPU speed"
+    ],
+    "answer": 2,
+    "explanation": "Virtual memory allows the system to use disk space to simulate additional memory."
+  },
+  {
+    "question": "Which of the following best describes a multilayered operating system?",
+    "options": [
+      "OS with different user interfaces",
+      "OS structured in layers with each layer depending on lower layers",
+      "Batch OS",
+      "Real-time OS"
+    ],
+    "answer": 1,
+    "explanation": "Layered OS organizes functions in layers providing modularity."
+  }
+]
