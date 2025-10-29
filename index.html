@@ -196,9 +196,25 @@
                     
                 </div>
                 
+                <div class="subject-card" onclick="selectSubject('oops')">
+                    <div class="subject-icon">⚡</div>
+                    <div class="subject-name">oops</div>
+                    
+                </div>
+                
                 <div class="subject-card" onclick="selectSubject('dl')">
                     <div class="subject-icon">🐍</div>
                     <div class="subject-name">Dl</div>
+                    
+                </div>
+                <div class="subject-card" onclick="selectSubject('softwareengineering')">
+                    <div class="subject-icon">🌐</div>
+                    <div class="subject-name">SE</div>
+                    
+                </div>
+                <div class="subject-card" onclick="selectSubject('softwareengineering')">
+                    <div class="subject-icon">🌐</div>
+                    <div class="subject-name">Toc</div>
                     
                 </div>
             </div>
@@ -256,7 +272,10 @@
                 'html': 'HTML',
                 'css': 'CSS',
                 'javascript': 'JavaScript',
-                'dl': 'dl'
+                'dl': 'dl',
+                'softwareengineering':'softwareengineering',
+                'oops':'oops',
+                'Toc':'Toc'
             };
             return names[subject] || subject;
         }

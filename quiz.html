@@ -21,13 +21,14 @@
 
         .main-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            gap: 20px;
+            gap: 30px;
         }
 
-        .container {
-            flex: 1;
+        /* Quiz container - 55% width on large screens */
+        .quiz-container {
+            flex: 0 0 55%;
             background: white;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -35,13 +36,16 @@
             position: relative;
         }
 
+        /* Navigation container - 40% width on large screens */
         .question-nav {
-            width: 250px;
+            flex: 0 0 40%;
             background: white;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             padding: 20px;
             height: fit-content;
+            position: sticky;
+            top: 20px;
         }
 
         .nav-header {
@@ -65,14 +69,14 @@
 
         .nav-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 10px;
             margin-bottom: 20px;
         }
 
         .nav-item {
-            width: 40px;
-            height: 40px;
+            width: 100%;
+            aspect-ratio: 1;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -85,7 +89,7 @@
 
         .nav-item.current {
             border-color: #5a67d8;
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
 
         .nav-item.answered {
@@ -327,23 +331,65 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* Responsive Design */
+        /* Large screens - default layout (55% quiz, 40% nav) */
+        @media (min-width: 1201px) {
+            .main-container {
+                max-width: 1400px;
+            }
+        }
+
+        /* Medium screens - adjust spacing */
+        @media (max-width: 1200px) {
+            .main-container {
+                max-width: 100%;
+                gap: 20px;
+            }
+            
+            .quiz-container {
+                flex: 0 0 55%;
+            }
+            
+            .question-nav {
+                flex: 0 0 40%;
+            }
+            
+            .nav-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Tablets and smaller screens - stack vertically */
         @media (max-width: 900px) {
             .main-container {
                 flex-direction: column;
             }
             
+            .quiz-container {
+                flex: 1;
+                width: 100%;
+                order: 1;
+            }
+            
             .question-nav {
+                flex: 1;
                 width: 100%;
                 order: 2;
+                position: static;
             }
             
             .nav-grid {
-                grid-template-columns: repeat(8, 1fr);
+                grid-template-columns: repeat(6, 1fr);
             }
         }
 
+        /* Mobile screens - adjust for smaller viewports */
         @media (max-width: 600px) {
-            .container {
+            body {
+                padding: 10px;
+            }
+            
+            .quiz-container {
                 padding: 20px;
             }
             
@@ -361,19 +407,50 @@
             }
             
             .nav-grid {
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+            
+            .header > div {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+            }
+            
+            .header .btn {
+                flex: 1;
+            }
+        }
+
+        /* Very small screens */
+        @media (max-width: 400px) {
+            .nav-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .question-card {
+                padding: 15px;
+            }
+            
+            .option {
+                padding: 12px;
             }
         }
     </style>
 </head>
 <body>
     <div class="main-container">
-        <div class="container">
+        <div class="quiz-container">
             <div class="header">
                 <h1 id="quiz-title">MCQ Quiz</h1>
                 <div>
                     <button class="btn btn-home" onclick="goHome()">Home</button>
-                    <button class="btn btn-restart" onclick="restartQuiz()" style="margin-left: 10px;">Restart Quiz</button>
+                    <button class="btn btn-restart" onclick="restartQuiz()">Restart Quiz</button>
                 </div>
             </div>
             
@@ -381,7 +458,7 @@
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
             
-            <div id="quiz-container">
+            <div id="quiz-content">
                 <!-- Questions will be loaded here dynamically -->
             </div>
             
@@ -425,7 +502,7 @@
         let currentSubject = '';
 
         // DOM elements
-        const quizContainer = document.getElementById('quiz-container');
+        const quizContent = document.getElementById('quiz-content');
         const progressBar = document.getElementById('progress-bar');
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
@@ -450,7 +527,10 @@
                 'html': 'html-questions.json',
                 'os': 'os.json',
                 'CN': 'cn.json',
-                'DL': 'dl.json'
+                'dl': 'dl.json',
+                'softwareengineering': 'softwareengineering.json',
+                'oops': 'oops.json',
+                'Toc': 'Toc.json'
             };
             return fileNames[subject] || 'questions.json';
         }
@@ -461,7 +541,10 @@
                 'html': 'HTML',
                 'css': 'CSS',
                 'javascript': 'JavaScript',
-                'python': 'Python'
+                'Dl': 'Dl',
+                'softwareengineering':'softwareengineering',
+                'oops':'oops',
+                'Toc':'Toc'
             };
             return names[subject] || subject;
         }
@@ -487,7 +570,7 @@
                 updateSubmitButton();
             } catch (error) {
                 console.error('Error loading questions:', error);
-                quizContainer.innerHTML = `
+                quizContent.innerHTML = `
                     <div class="question-card">
                         <p>Error loading questions for ${getSubjectDisplayName(currentSubject)}. Please try again.</p>
                         <button class="btn" onclick="goHome()" style="margin-top: 15px;">Go Back to Home</button>
@@ -601,7 +684,7 @@
                 </div>
             ` : '';
 
-            quizContainer.innerHTML = `
+            quizContent.innerHTML = `
                 <div class="question-card">
                     <div class="question-number">Question ${questionNumber} of ${questions.length}</div>
                     <div class="question-text">${question.question}</div>
@@ -668,7 +751,7 @@
 
         // Show final score
         function showScore() {
-            quizContainer.classList.add('hidden');
+            quizContent.classList.add('hidden');
             document.querySelector('.controls').classList.add('hidden');
             document.querySelector('.question-nav').classList.add('hidden');
             scoreContainer.classList.remove('hidden');
@@ -698,7 +781,7 @@
             score = 0;
             userAnswers = new Array(questions.length).fill(null);
             
-            quizContainer.classList.remove('hidden');
+            quizContent.classList.remove('hidden');
             document.querySelector('.controls').classList.remove('hidden');
             document.querySelector('.question-nav').classList.remove('hidden');
             scoreContainer.classList.add('hidden');

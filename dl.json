@@ -1,0 +1,707 @@
+[
+  {
+    "question": "Which of the following is a binary number?",
+    "options": ["10101", "1987", "7F2A", "298"],
+    "answer": 0,
+    "explanation": "Binary numbers use only 0 and 1. 10101 is a valid binary number."
+  },
+  {
+    "question": "Which number system is used internally by computers?",
+    "options": ["Octal", "Decimal", "Binary", "Hexadecimal"],
+    "answer": 2,
+    "explanation": "Computers use the binary system for data representation."
+  },
+  {
+    "question": "Which logic gate has output true only if all inputs are true?",
+    "options": ["OR", "AND", "XOR", "NOR"],
+    "answer": 1,
+    "explanation": "AND gate gives high (1) output only if all inputs are high."
+  },
+  {
+    "question": "What is the Boolean expression for 'A OR B'?",
+    "options": ["A + B", "AB", "A'B", "A.B"],
+    "answer": 0,
+    "explanation": "\"+\" represents OR in Boolean algebra."
+  },
+  {
+    "question": "A NOT gate inverts the input. What is its other name?",
+    "options": ["Buffer", "Inverter", "Selector", "Adder"],
+    "answer": 1,
+    "explanation": "A NOT gate is also called an inverter."
+  },
+  {
+    "question": "The output of a NAND gate is false only when:",
+    "options": [
+      "All inputs are true",
+      "All inputs are false",
+      "At least one input is true",
+      "At least one input is false"
+    ],
+    "answer": 0,
+    "explanation": "NAND outputs false only if all inputs are true."
+  },
+  {
+    "question": "Which of the following is NOT a valid logic gate?",
+    "options": ["AND", "OR", "XOR", "SUM"],
+    "answer": 3,
+    "explanation": "SUM is not a gate; others are basic logic gates."
+  },
+  {
+    "question": "A 'flip-flop' is mainly used for:",
+    "options": [
+      "Logical operations",
+      "Storing binary data",
+      "Arithmetic operations",
+      "Encoding data"
+    ],
+    "answer": 1,
+    "explanation": "Flip-flops store a single bit (binary data) of information."
+  },
+  {
+    "question": "Which gate is called a universal gate?",
+    "options": ["AND", "OR", "NAND", "NOR"],
+    "answer": 2,
+    "explanation": "NAND is a universal gate; any logic function can be built from NAND gates."
+  },
+  {
+    "question": "What is the decimal equivalent of binary 1011?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 2,
+    "explanation": "1011 in binary equals 11 in decimal."
+  },
+  {
+    "question": "Hexadecimal number system uses how many symbols?",
+    "options": ["2", "8", "10", "16"],
+    "answer": 3,
+    "explanation": "Hexadecimal includes numbers 0-9 and letters A-F: total 16 symbols."
+  },
+  {
+    "question": "Which gate outputs true only if inputs are different?",
+    "options": ["AND", "OR", "XOR", "NOR"],
+    "answer": 2,
+    "explanation": "XOR (exclusive OR) outputs true only if the inputs differ."
+  },
+  {
+    "question": "Full form of BCD is:",
+    "options": [
+      "Binary Code Design",
+      "Binary Code Decimal",
+      "Binary Coded Decimal",
+      "Binary Count Data"
+    ],
+    "answer": 2,
+    "explanation": "BCD means Binary Coded Decimal."
+  },
+  {
+    "question": "Which represents 'NOT A AND B' in Boolean algebra?",
+    "options": ["A'.B", "A+B'", "A.B'", "A+B"],
+    "answer": 0,
+    "explanation": "A'.B is 'NOT A AND B' in Boolean algebra."
+  },
+  {
+    "question": "Which is the output for NOR gate when all inputs are 0?",
+    "options": ["0", "1", "Depends on input", "None"],
+    "answer": 1,
+    "explanation": "NOR gate outputs 1 only if all inputs are 0."
+  },
+  {
+    "question": "What is the result of 1101 (binary) + 1011 (binary)?",
+    "options": ["11000", "10100", "10000", "10101"],
+    "answer": 0,
+    "explanation": "1101 + 1011 (binary addition): 1+1=0(Carry1), 0+1+1=0(Carry1), 1+0+1=0(Carry1), 1+1=0(Carry1). Result: 11000."
+  },
+  {
+    "question": "Which gate produces high output only when both inputs are different?",
+    "options": ["AND", "NOR", "XOR", "NAND"],
+    "answer": 2,
+    "explanation": "XOR gate outputs 1 only for different inputs."
+  },
+  {
+    "question": "What is the output for the NOR gate with inputs A=1, B=0?",
+    "options": ["0", "1", "Depends on inputs", "Always 0"],
+    "answer": 0,
+    "explanation": "NOR gate gives output 1 only if both inputs are 0, so output is 0."
+  },
+  {
+    "question": "Which represents the Boolean law 'A + AB = A'?",
+    "options": [
+      "Absorption law",
+      "De Morgan’s law",
+      "Distribution law",
+      "Complement law"
+    ],
+    "answer": 0,
+    "explanation": "A + AB = A is the absorption law in Boolean algebra."
+  },
+  {
+    "question": "Decimal equivalent of hexadecimal 1F is:",
+    "options": ["31", "16", "32", "30"],
+    "answer": 0,
+    "explanation": "1F = (1*16) + 15 = 31 decimal."
+  },
+  {
+    "question": "Universal gates are:",
+    "options": ["AND and OR", "NAND and NOR", "XOR and XNOR", "AND and XOR"],
+    "answer": 1,
+    "explanation": "NAND and NOR are universal gates."
+  },
+  {
+    "question": "The minimum number of NAND gates required to implement an OR gate is:",
+    "options": ["2", "3", "4", "1"],
+    "answer": 1,
+    "explanation": "At least 3 NAND gates are needed to make an OR gate."
+  },
+  {
+    "question": "Which is not a combinational circuit?",
+    "options": ["Multiplexer", "Full adder", "Counter", "Decoder"],
+    "answer": 2,
+    "explanation": "Counter is a sequential circuit, others are combinational circuits."
+  },
+  {
+    "question": "A half adder adds:",
+    "options": ["Three bits", "Two bits", "Four bits", "Five bits"],
+    "answer": 1,
+    "explanation": "Half adder is used for addition of two single-bit binary numbers."
+  },
+  {
+    "question": "The output of a NOT gate is:",
+    "options": [
+      "Same as input",
+      "Inverted input",
+      "Twice the input",
+      "Half the input"
+    ],
+    "answer": 1,
+    "explanation": "NOT gate inverts the input."
+  },
+  {
+    "question": "Which is the sum of products form?",
+    "options": ["AB + BC", "(A+B).(C+D)", "(AB)C", "A+B+C"],
+    "answer": 0,
+    "explanation": "Sum of products: product terms connected with ‘+’."
+  },
+  {
+    "question": "BCD representation of decimal 9 is:",
+    "options": ["1001", "0100", "1111", "1010"],
+    "answer": 0,
+    "explanation": "BCD for 9 is 1001."
+  },
+  {
+    "question": "Two-input AND gate output for inputs 1 and 0 is:",
+    "options": ["1", "0", "Both", "None"],
+    "answer": 1,
+    "explanation": "AND requires both inputs as 1; here, output is 0."
+  },
+  {
+    "question": "Main use of flip-flop in digital circuits?",
+    "options": ["Counting", "Storing bit", "Multiplication", "Addition"],
+    "answer": 1,
+    "explanation": "Flip-flop stores a single binary bit."
+  },
+  {
+    "question": "Which digital circuit converts BCD to decimal?",
+    "options": ["Encoder", "Decoder", "Demultiplexer", "Multiplexer"],
+    "answer": 1,
+    "explanation": "Decoder takes BCD inputs and outputs decimal."
+  },
+  {
+    "question": "Which gate is used in parity generator circuits?",
+    "options": ["XOR", "AND", "NOR", "OR"],
+    "answer": 0,
+    "explanation": "XOR gates are used for parity generation."
+  },
+  {
+    "question": "What is the binary value of decimal 25?",
+    "options": ["11001", "10011", "10101", "11100"],
+    "answer": 0,
+    "explanation": "25 in binary: 11001."
+  },
+  {
+    "question": "Logic gates are made using:",
+    "options": ["Resistors", "Capacitors", "Transistors", "Diodes"],
+    "answer": 2,
+    "explanation": "Transistors are basic building blocks for gates."
+  },
+  {
+    "question": "Which is not a basic digital logic gate?",
+    "options": ["OR", "AND", "NOR", "XOR"],
+    "answer": 2,
+    "explanation": "NOR is a derived gate, OR and AND are basic."
+  },
+  {
+    "question": "How many output lines does a 4-to-1 multiplexer have?",
+    "options": ["4", "1", "2", "8"],
+    "answer": 1,
+    "explanation": "4-to-1 multiplexer has 1 output line."
+  },
+  {
+    "question": "Logic gate with output 0 only if all inputs are 1:",
+    "options": ["NAND", "AND", "XOR", "OR"],
+    "answer": 0,
+    "explanation": "NAND outputs 0 only when all inputs are 1."
+  },
+  {
+    "question": "Full form of LSB is:",
+    "options": [
+      "Large System Byte",
+      "Least Significant Byte",
+      "Least Significant Bit",
+      "Long System Byte"
+    ],
+    "answer": 2,
+    "explanation": "LSB means Least Significant Bit."
+  },
+  {
+    "question": "Operation performed by a digital comparator?",
+    "options": ["Addition", "Subtraction", "Comparison", "Multiplication"],
+    "answer": 2,
+    "explanation": "Comparator compares two binary numbers."
+  },
+  {
+    "question": "Boolean expression for output of NOR gate is:",
+    "options": ["(A+B)'", "AB", "A'+B'", "A.B"],
+    "answer": 0,
+    "explanation": "NOR: (A+B)’, i.e., NOT-OR."
+  },
+  {
+    "question": "Which is NOT a representation of 2’s complement?",
+    "options": [
+      "Invert bits and add 1",
+      "Subtract each digit from nine",
+      "Used for signed arithmetic",
+      "Easy binary subtraction"
+    ],
+    "answer": 1,
+    "explanation": "Subtracting from nine is for 9’s complement, not 2’s."
+  },
+  {
+    "question": "This is the component that stores a series of bits:",
+    "options": ["Register", "Flip-flop", "Counter", "Multiplexer"],
+    "answer": 0,
+    "explanation": "Register stores multiple bits; flip-flop stores just one."
+  },
+  {
+    "question": "What does the truth table show?",
+    "options": [
+      "Logical relationships",
+      "Number conversions",
+      "Power dissipation",
+      "Clock speed"
+    ],
+    "answer": 0,
+    "explanation": "Truth table shows logical output for all input combinations."
+  },
+  {
+    "question": "2’s complement of binary 110 is:",
+    "options": ["001", "010", "100", "0101"],
+    "answer": 2,
+    "explanation": "Invert 110 → 001, add 1 → 010, so answer is 010."
+  },
+  {
+    "question": "JK flip-flop avoids invalid state of:",
+    "options": ["Latch", "SR flip-flop", "T flip-flop", "D flip-flop"],
+    "answer": 1,
+    "explanation": "JK flip-flop eliminates invalid state of SR flip-flop."
+  },
+  {
+    "question": "Which binary number comes after 1111?",
+    "options": ["10000", "10100", "1112", "01000"],
+    "answer": 0,
+    "explanation": "After 1111 (binary 15), the next is 10000 (binary 16)."
+  },
+  {
+    "question": "The output of a NOT gate is:",
+    "options": ["Always 1", "Always 0", "Input inverted", "No output"],
+    "answer": 2,
+    "explanation": "NOT gate inverts the input."
+  },
+  {
+    "question": "Decimal equivalent of binary 11101 is:",
+    "options": ["29", "31", "28", "27"],
+    "answer": 0,
+    "explanation": "11101 = 16 + 8 + 4 + 0 + 1 = 29."
+  },
+  {
+    "question": "Which gate gives 0 output only when both inputs are 1?",
+    "options": ["AND", "NAND", "NOR", "XOR"],
+    "answer": 1,
+    "explanation": "NAND output is 0 only if all inputs are 1."
+  },
+  {
+    "question": "An SR flip-flop’s invalid state occurs when:",
+    "options": ["S=1, R=1", "S=0, R=0", "S=1, R=0", "S=0, R=1"],
+    "answer": 0,
+    "explanation": "SR flip-flop invalid state is S=1, R=1."
+  },
+  {
+    "question": "Full adder adds:",
+    "options": ["2 bits", "1 bit and carry", "3 bits", "4 bits"],
+    "answer": 2,
+    "explanation": "Full adder adds three bits (A, B, carry-in)."
+  },
+  {
+    "question": "The hexadecimal value for decimal 20 is:",
+    "options": ["12", "14", "20", "10"],
+    "answer": 0,
+    "explanation": "20/16=1, remainder 4; hex is 14."
+  },
+  {
+    "question": "How many possible inputs does a 3-input AND gate have?",
+    "options": ["6", "8", "4", "5"],
+    "answer": 1,
+    "explanation": "2^3=8 possible combinations."
+  },
+  {
+    "question": "A ring counter is a:",
+    "options": ["Shift register", "Multiplexer", "Adder", "Encoder"],
+    "answer": 0,
+    "explanation": "Ring counter is a type of shift register."
+  },
+  {
+    "question": "Truth table for a logic gate shows:",
+    "options": [
+      "All input-output combinations",
+      "Only inputs",
+      "Only outputs",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Truth table lists outputs for every input possibility."
+  },
+  {
+    "question": "A multiplexer is used to:",
+    "options": ["Encode", "Select one of many inputs", "Decode", "Invert"],
+    "answer": 1,
+    "explanation": "Multiplexer selects a single output from multiple inputs."
+  },
+  {
+    "question": "Binary addition 110 + 101 yields:",
+    "options": ["1011", "1010", "1001", "1111"],
+    "answer": 0,
+    "explanation": "110 + 101 = 1011"
+  },
+  {
+    "question": "The output of XOR gate is 1 if:",
+    "options": [
+      "Inputs are same",
+      "Inputs are different",
+      "Inputs are all 1",
+      "All inputs are 0"
+    ],
+    "answer": 1,
+    "explanation": "XOR outputs 1 when inputs differ."
+  },
+  {
+    "question": "A 4-bit register can store:",
+    "options": ["2 bits", "4 bits", "16 bits", "8 bits"],
+    "answer": 1,
+    "explanation": "A 4-bit register stores 4 bits."
+  },
+  {
+    "question": "Boolean expression for AND operation is:",
+    "options": ["A.B", "A+B", "A'.B", "A+B'"],
+    "answer": 0,
+    "explanation": "AND: multiplication (A.B)"
+  },
+  {
+    "question": "BCD representation of decimal 5 is:",
+    "options": ["0101", "1010", "1100", "1110"],
+    "answer": 0,
+    "explanation": "BCD for 5: 0101."
+  },
+  {
+    "question": "NOR gate outputs 1 when:",
+    "options": [
+      "All inputs 1",
+      "All inputs 0",
+      "Inputs differ",
+      "Any input is 1"
+    ],
+    "answer": 1,
+    "explanation": "NOR outputs 1 if all inputs are 0."
+  },
+  {
+    "question": "For n flip-flops, maximum counter states are:",
+    "options": ["n^2", "2^n", "n", "n+1"],
+    "answer": 1,
+    "explanation": "Counter with n flip-flops: 2^n states."
+  },
+  {
+    "question": "A JK flip-flop toggles when:",
+    "options": ["J=0, K=0", "J=1, K=1", "J=1, K=0", "J=0, K=1"],
+    "answer": 1,
+    "explanation": "J=K=1, JK flip-flop toggles."
+  },
+  {
+    "question": "Which shows the output for every input in a digital system?",
+    "options": ["Truth table", "Memory map", "K-map", "Register table"],
+    "answer": 0,
+    "explanation": "Truth table gives output for every input."
+  },
+  {
+    "question": "Decimal number 100 in binary is:",
+    "options": ["1100100", "1010010", "1001100", "1111000"],
+    "answer": 0,
+    "explanation": "100 in binary: 1100100."
+  },
+  {
+    "question": "The function of an encoder:",
+    "options": [
+      "Convert binary to decimal",
+      "Convert decimal to binary code",
+      "Switch inputs",
+      "Invert inputs"
+    ],
+    "answer": 1,
+    "explanation": "Encoders convert decimal/inputs to binary code."
+  },
+  {
+    "question": "Logic gate used to build arithmetic circuits:",
+    "options": ["AND", "OR", "EX-OR", "NOR"],
+    "answer": 2,
+    "explanation": "EX-OR used in adders (sum)."
+  },
+  {
+    "question": "A D flip-flop is called so because:",
+    "options": ["Delay element", "Its input is D", "Double flip", "Direct set"],
+    "answer": 1,
+    "explanation": "D input determines output at clock pulse."
+  },
+  {
+    "question": "A counter is a:",
+    "options": [
+      "Sequential circuit",
+      "Combinational circuit",
+      "Multiplexer",
+      "Decoder"
+    ],
+    "answer": 0,
+    "explanation": "Counters are sequential, using previous states."
+  },
+  {
+    "question": "A full subtractor subtracts:",
+    "options": [
+      "Two bits",
+      "Three bits (including borrow)",
+      "Four bits",
+      "One bit"
+    ],
+    "answer": 1,
+    "explanation": "Full subtractor: A, B, borrow-in."
+  },
+  {
+    "question": "The output of an AND gate is:",
+    "options": [
+      "1 only if all inputs are 1",
+      "1 only if all inputs are 0",
+      "Always 1",
+      "Always 0"
+    ],
+    "answer": 0,
+    "explanation": "AND: output 1 only when all inputs are 1."
+  },
+  {
+    "question": "A shift register performs:",
+    "options": [
+      "Addition",
+      "Subtraction",
+      "Shifting bits left or right",
+      "Multiplication"
+    ],
+    "answer": 2,
+    "explanation": "Shift register shifts bits left/right."
+  },
+  {
+    "question": "Decimal equivalent of binary 100101 is:",
+    "options": ["37", "39", "41", "25"],
+    "answer": 0,
+    "explanation": "100101 = 32+0+0+8+0+1 = 37."
+  },
+  {
+    "question": "What is the output of the AND gate when one input is 0?",
+    "options": ["1", "0", "Depends on other input", "Cannot be determined"],
+    "answer": 1,
+    "explanation": "AND gate outputs 0 if any input is 0."
+  },
+  {
+    "question": "Decimal equivalent of binary 101101 is:",
+    "options": ["45", "39", "53", "21"],
+    "answer": 0,
+    "explanation": "101101 = 32+0+8+4+0+1 = 45."
+  },
+  {
+    "question": "Which flip-flop is called a memory cell?",
+    "options": ["SR", "JK", "D", "T"],
+    "answer": 2,
+    "explanation": "D flip-flop is often called a memory cell for single bit storage."
+  },
+  {
+    "question": "The 2’s complement of binary 1001 is:",
+    "options": ["0111", "1001", "1111", "0110"],
+    "answer": 3,
+    "explanation": "Invert (1001) → 0110, add 1 → 0111. Answer is 0111."
+  },
+  {
+    "question": "Which digital device converts analog signals into digital?",
+    "options": ["Decoder", "Counter", "ADC", "Multiplexer"],
+    "answer": 2,
+    "explanation": "ADC (Analog to Digital Converter) converts analog to digital."
+  },
+  {
+    "question": "BCD code for decimal 7 is:",
+    "options": ["1110", "0111", "1010", "1001"],
+    "answer": 1,
+    "explanation": "BCD for 7: 0111."
+  },
+  {
+    "question": "Which gate outputs 0 only if all inputs are 1?",
+    "options": ["NAND", "XOR", "NOR", "OR"],
+    "answer": 0,
+    "explanation": "NAND outputs 0 only when all inputs are 1."
+  },
+  {
+    "question": "How many output lines does a 3-to-8 decoder have?",
+    "options": ["3", "8", "6", "4"],
+    "answer": 1,
+    "explanation": "A 3-to-8 decoder gives 8 output lines."
+  },
+  {
+    "question": "A 4-bit binary up counter counts from:",
+    "options": ["0 to 15", "1 to 16", "0 to 8", "1 to 8"],
+    "answer": 0,
+    "explanation": "4 bits give 16 states: 0 to 15."
+  },
+  {
+    "question": "A full adder can be constructed using:",
+    "options": [
+      "Two half adders and OR gate",
+      "Two half adders and AND gate",
+      "Two OR gates",
+      "One half adder"
+    ],
+    "answer": 0,
+    "explanation": "Full adder = two half adders + OR gate for carry."
+  },
+  {
+    "question": "How many selection lines are needed for an 8-to-1 multiplexer?",
+    "options": ["3", "4", "8", "2"],
+    "answer": 0,
+    "explanation": "Log2(8)=3 selection lines."
+  },
+  {
+    "question": "Boolean expression ‘A.B’ means:",
+    "options": ["AND", "OR", "NOT", "NAND"],
+    "answer": 0,
+    "explanation": "Dot (.) means AND operation."
+  },
+  {
+    "question": "The output of a NOR gate is high if:",
+    "options": [
+      "Any input is high",
+      "All inputs are low",
+      "Inputs are different",
+      "All inputs are high"
+    ],
+    "answer": 1,
+    "explanation": "NOR outputs high only if all inputs are low."
+  },
+  {
+    "question": "A combinational circuit in digital logic is:",
+    "options": ["Flip-flop", "Counter", "Full adder", "Latch"],
+    "answer": 2,
+    "explanation": "Full adder is a combinational circuit; others are sequential."
+  },
+  {
+    "question": "A 2-input XOR gate truth table row where both inputs are 1, output is:",
+    "options": ["1", "0", "Undefined", "Depends"],
+    "answer": 1,
+    "explanation": "XOR = 0 when both inputs are same."
+  },
+  {
+    "question": "Which flip-flop toggles its output when triggered?",
+    "options": ["SR", "D", "JK", "T"],
+    "answer": 3,
+    "explanation": "T flip-flop toggles output on each clock pulse."
+  },
+  {
+    "question": "A half subtractor subtracts:",
+    "options": ["Two bits", "Three bits", "Four bits", "One bit only"],
+    "answer": 0,
+    "explanation": "Half subtractor subtracts two single bits."
+  },
+  {
+    "question": "Decimal equivalent of hexadecimal ‘A’ is:",
+    "options": ["10", "9", "8", "15"],
+    "answer": 0,
+    "explanation": "‘A’ in hex = 10 in decimal."
+  },
+  {
+    "question": "Which digital circuit produces sum and carry output?",
+    "options": ["Comparator", "Full adder", "Flip-flop", "Decoder"],
+    "answer": 1,
+    "explanation": "Full adder produces sum and carry."
+  },
+  {
+    "question": "A 8-bit register can store?",
+    "options": ["8 bits", "16 bits", "4 bits", "2 bytes"],
+    "answer": 0,
+    "explanation": "8 bit register stores 8 bits."
+  },
+  {
+    "question": "Which gate is known as ‘inverting buffer’?",
+    "options": ["NOT", "AND", "OR", "NAND"],
+    "answer": 0,
+    "explanation": "NOT gate is also called inverter."
+  },
+  {
+    "question": "Binary subtraction of 101 – 011 gives:",
+    "options": ["010", "100", "110", "001"],
+    "answer": 0,
+    "explanation": "101 – 011 = 10 – 3 = 2 → 010."
+  },
+  {
+    "question": "What does SOP stand for in Boolean algebra?",
+    "options": [
+      "Sum of Products",
+      "Sort of Product",
+      "System of Products",
+      "Sum or Product"
+    ],
+    "answer": 0,
+    "explanation": "SOP: Sum of Products form."
+  },
+  {
+    "question": "Which is not a basic logic gate?",
+    "options": ["AND", "OR", "XOR", "NOT"],
+    "answer": 2,
+    "explanation": "XOR is not considered a 'basic' gate (basic: AND, OR, NOT)."
+  },
+  {
+    "question": "Decimal equivalent of binary 10001 is:",
+    "options": ["17", "21", "19", "25"],
+    "answer": 0,
+    "explanation": "10001 = 16 + 0 + 0 + 0 + 1 = 17."
+  },
+  {
+    "question": "What is the main use of counters in digital electronics?",
+    "options": [
+      "Shift data",
+      "Store data",
+      "Count pulses/events",
+      "Add numbers"
+    ],
+    "answer": 2,
+    "explanation": "Counters count pulses, events, or clock cycles."
+  },
+  {
+    "question": "When is output of OR gate 0?",
+    "options": [
+      "Any input is 1",
+      "All inputs are 0",
+      "All inputs are 1",
+      "Inputs are different"
+    ],
+    "answer": 1,
+    "explanation": "OR outputs 0 only when all inputs are 0."
+  }
+]

@@ -1,0 +1,904 @@
+[
+  {
+    "question": "What does OOP stand for?",
+    "options": [
+      "Objective Oriented Programming",
+      "Object Oriented Programming",
+      "Operation Oriented Programming",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "OOP stands for Object Oriented Programming."
+  },
+  {
+    "question": "Which of these is NOT a feature of OOP?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Compilation"
+    ],
+    "answer": 3,
+    "explanation": "Compilation is not an OOP feature; it is a process."
+  },
+  {
+    "question": "What is a class in OOP?",
+    "options": [
+      "An instance of an object",
+      "A blueprint for objects",
+      "A function",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "A class defines the properties and methods for objects."
+  },
+  {
+    "question": "What is encapsulation?",
+    "options": [
+      "Hiding internal data",
+      "Code reuse",
+      "Object creation",
+      "Inheritance"
+    ],
+    "answer": 0,
+    "explanation": "Encapsulation hides internal data from outside access."
+  },
+  {
+    "question": "What does ‘inheritance’ allow in OOP?",
+    "options": [
+      "Sharing code among classes",
+      "Copying objects",
+      "Running programs faster",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "Inheritance enables a class to inherit properties from another."
+  },
+  {
+    "question": "Polymorphism means:",
+    "options": [
+      "Objects of different types",
+      "Single method, multiple forms",
+      "Encapsulation",
+      "Data hiding"
+    ],
+    "answer": 1,
+    "explanation": "Polymorphism allows methods to behave differently based on context."
+  },
+  {
+    "question": "Which keyword is used for inheritance in Java?",
+    "options": [
+      "inherits",
+      "extends",
+      "implements",
+      "implements"
+    ],
+    "answer": 1,
+    "explanation": "'extends' keyword is used to inherit from another class."
+  },
+  {
+    "question": "What is a constructor?",
+    "options": [
+      "A method to initialize objects",
+      "A variable",
+      "A class",
+      "A function"
+    ],
+    "answer": 0,
+    "explanation": "Constructors initialize class objects."
+  },
+  {
+    "question": "In OOP, ‘this’ keyword refers to:",
+    "options": [
+      "Current object",
+      "Parent class",
+      "Constructor",
+      "Previous object"
+    ],
+    "answer": 0,
+    "explanation": "'this' refers to the current object calling a method."
+  },
+  {
+    "question": "Which of these is an example of runtime polymorphism?",
+    "options": [
+      "Method overriding",
+      "Method overloading",
+      "Class extending interface",
+      "Constructor method"
+    ],
+    "answer": 0,
+    "explanation": "Method overriding supports dynamic (runtime) polymorphism."
+  },
+  {
+    "question": "What is abstraction?",
+    "options": [
+      "Hiding implementation details",
+      "Inheritance",
+      "Data encapsulation",
+      "Error handling"
+    ],
+    "answer": 0,
+    "explanation": "Abstraction hides complex details exposing only necessary parts."
+  },
+  {
+    "question": "Which OOP principle restricts unauthorized access to data?",
+    "options": [
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism"
+    ],
+    "answer": 1,
+    "explanation": "Encapsulation protects data through access modifiers."
+  },
+  {
+    "question": "Data members of a class are accessed using:",
+    "options": [
+      "Dot operator",
+      "Arrow operator",
+      "Pointer",
+      "Comma operator"
+    ],
+    "answer": 0,
+    "explanation": "Dot operator accesses class members from objects."
+  },
+  {
+    "question": "Which access specifier makes class members accessible within its own class only?",
+    "options": [
+      "Public",
+      "Private",
+      "Protected",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Private restricts access to the defining class."
+  },
+  {
+    "question": "What is the default access modifier in Java?",
+    "options": [
+      "Private",
+      "Public",
+      "Protected",
+      "Package-private"
+    ],
+    "answer": 3,
+    "explanation": "Default access is package-private (visible within the package)."
+  },
+  {
+    "question": "Which operator is used for object creation in Java?",
+    "options": [
+      "malloc",
+      "new",
+      "create",
+      "init"
+    ],
+    "answer": 1,
+    "explanation": "'new' keyword dynamically allocates memory for objects."
+  },
+  {
+    "question": "Which of these supports multiple inheritance?",
+    "options": [
+      "Java classes",
+      "Java interfaces",
+      "C++ classes",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Java interfaces support multiple inheritance."
+  },
+  {
+    "question": "If a derived class defines a method with the same name as its base class, it's called:",
+    "options": [
+      "Method overloading",
+      "Method overriding",
+      "Multiple inheritance",
+      "Encapsulation"
+    ],
+    "answer": 1,
+    "explanation": "Method overriding redefines a base class method."
+  },
+  {
+    "question": "Which concept is known as 'one name, many forms'?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Abstraction"
+    ],
+    "answer": 2,
+    "explanation": "Polymorphism means a function behaves differently."
+  },
+  {
+    "question": "Which of the following is NOT an OOP language?",
+    "options": [
+      "C++",
+      "Java",
+      "Python",
+      "COBOL"
+    ],
+    "answer": 3,
+    "explanation": "COBOL is a procedural language."
+  },
+  {
+    "question": "Which OOP feature allows hiding of internal code logic?",
+    "options": [
+      "Encapsulation",
+      "Abstraction",
+      "Inheritance",
+      "Polymorphism"
+    ],
+    "answer": 1,
+    "explanation": "Abstraction hides complex implementation details."
+  },
+  {
+    "question": "What is the output of the following code snippet?\nclass Test {\npublic static void main(String[] args) {\nSystem.out.println(\"OOP\");\n}\n}",
+    "options": [
+      "OOP",
+      "Test",
+      "Error",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "The program prints 'OOP'."
+  },
+  {
+    "question": "In Java, which keyword is used to prevent method overriding?",
+    "options": [
+      "final",
+      "static",
+      "private",
+      "protected"
+    ],
+    "answer": 0,
+    "explanation": "'final' keyword prevents further method overriding."
+  },
+  {
+    "question": "Constructor has:",
+    "options": [
+      "Return type",
+      "No return type",
+      "int return type",
+      "void return type"
+    ],
+    "answer": 1,
+    "explanation": "Constructors do not have return types."
+  },
+  {
+    "question": "A method that has same name in same class with different parameters is called:",
+    "options": [
+      "Method overloading",
+      "Method overriding",
+      "Constructor",
+      "Operator overloading"
+    ],
+    "answer": 0,
+    "explanation": "It is called method overloading."
+  },
+  {
+    "question": "Which of these is an example of aggregation in OOP?",
+    "options": [
+      "Car has an Engine",
+      "Car is a Vehicle",
+      "Engine is a Part",
+      "Vehicle owns Cars"
+    ],
+    "answer": 0,
+    "explanation": "Aggregation implies whole-part relationship."
+  },
+  {
+    "question": "Who is known as the father of Object Oriented Programming?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Alan Kay"
+    ],
+    "answer": 3,
+    "explanation": "Alan Kay is credited with pioneering OOP concepts."
+  },
+  {
+    "question": "Which of the following is NOT a feature of OOP?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Compilation",
+      "Polymorphism"
+    ],
+    "answer": 2,
+    "explanation": "Compilation is a process, not a feature of OOP."
+  },
+  {
+    "question": "What is an object?",
+    "options": [
+      "Logical entity in code",
+      "Instance of a class",
+      "Function",
+      "Variable"
+    ],
+    "answer": 1,
+    "explanation": "Objects are instances created from classes."
+  },
+  {
+    "question": "Which OOP feature restricts direct access to data?",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Abstraction",
+      "Encapsulation"
+    ],
+    "answer": 3,
+    "explanation": "Encapsulation hides internal state."
+  },
+  {
+    "question": "Method overriding supports which type of polymorphism?",
+    "options": [
+      "Compile-time",
+      "Run-time",
+      "No polymorphism",
+      "Multiple polymorphism"
+    ],
+    "answer": 1,
+    "explanation": "Overriding is run-time polymorphism."
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "inherits",
+      "extends",
+      "implements",
+      "inheritsfrom"
+    ],
+    "answer": 1,
+    "explanation": "'extends' facilitates inheritance."
+  },
+  {
+    "question": "Constructor does NOT have:",
+    "options": [
+      "Name same as class",
+      "Return type",
+      "Used to initialize objects",
+      "Automatically called"
+    ],
+    "answer": 1,
+    "explanation": "Constructors have no return type."
+  },
+  {
+    "question": "An interface in Java can have:",
+    "options": [
+      "Abstract methods only",
+      "Concrete methods only",
+      "Both A & B",
+      "Variables only"
+    ],
+    "answer": 0,
+    "explanation": "Interfaces declare abstract methods."
+  },
+  {
+    "question": "Which one is NOT true about polymorphism?",
+    "options": [
+      "Same name, different forms",
+      "Operator overloading",
+      "Method overriding",
+      "Multiple inheritance"
+    ],
+    "answer": 3,
+    "explanation": "Multiple inheritance is unrelated to polymorphism."
+  },
+  {
+    "question": "What is a class?",
+    "options": [
+      "Blueprint for objects",
+      "Instance of object",
+      "Variable",
+      "Function"
+    ],
+    "answer": 0,
+    "explanation": "Class defines structure and behavior."
+  },
+  {
+    "question": "What is data abstraction?",
+    "options": [
+      "Hiding unnecessary details",
+      "Declaring variables",
+      "Inheritance",
+      "Polymorphism"
+    ],
+    "answer": 0,
+    "explanation": "Abstraction focuses on essential features."
+  },
+  {
+    "question": "In Java, the 'this' keyword refers to:",
+    "options": [
+      "Current class",
+      "Current method",
+      "Current object",
+      "Current package"
+    ],
+    "answer": 2,
+    "explanation": "'this' refers to the invoking object."
+  },
+  {
+    "question": "Which access modifier allows access only within the same class?",
+    "options": [
+      "Private",
+      "Public",
+      "Protected",
+      "Default"
+    ],
+    "answer": 0,
+    "explanation": "Private members are class-only accessible."
+  },
+  {
+    "question": "Which of these supports multiple inheritance?",
+    "options": [
+      "Java classes",
+      "Java interfaces",
+      "C++ classes",
+      "All of these"
+    ],
+    "answer": 1,
+    "explanation": "Interfaces support multiple inheritance in Java."
+  },
+  {
+    "question": "Which is the default access level in Java?",
+    "options": [
+      "Public",
+      "Private",
+      "Protected",
+      "Package-private"
+    ],
+    "answer": 3,
+    "explanation": "Members are accessible within same package by default."
+  },
+  {
+    "question": "Which of the following illustrates composition?",
+    "options": [
+      "Car has a engine",
+      "Car is a vehicle",
+      "Vehicle drives",
+      "Engine runs"
+    ],
+    "answer": 0,
+    "explanation": "Composition is a strong 'has-a' relationship."
+  },
+  {
+    "question": "Method overloading is an example of:",
+    "options": [
+      "Run-time polymorphism",
+      "Compile-time polymorphism",
+      "Multiple inheritance",
+      "Abstraction"
+    ],
+    "answer": 1,
+    "explanation": "Overloading binds methods at compile time."
+  },
+  {
+    "question": "Which concept allows hiding internal details but showing functionalities?",
+    "options": [
+      "Data hiding",
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance"
+    ],
+    "answer": 1,
+    "explanation": "Abstraction hides complexity."
+  },
+  {
+    "question": "Super keyword is used to:",
+    "options": [
+      "Refer to base class",
+      "Create object",
+      "Overload method",
+      "Hide data"
+    ],
+    "answer": 0,
+    "explanation": "'super' accesses base class members."
+  },
+  {
+    "question": "Java supports:",
+    "options": [
+      "Multiple inheritance with classes",
+      "Single inheritance with classes",
+      "No inheritance",
+      "All inheritance types"
+    ],
+    "answer": 1,
+    "explanation": "Java classes support single inheritance."
+  },
+  {
+    "question": "Which is NOT true about abstract classes?",
+    "options": [
+      "Cannot be instantiated",
+      "Can have abstract methods",
+      "Can have non-abstract methods",
+      "Must be inherited"
+    ],
+    "answer": 3,
+    "explanation": "Abstract classes do not have to be inherited but can be."
+  },
+  {
+    "question": "An interface differs from a class by:",
+    "options": [
+      "Not supporting multiple inheritance",
+      "Having only abstract methods",
+      "Having constructors",
+      "Allowing data fields"
+    ],
+    "answer": 1,
+    "explanation": "Interfaces declare abstract methods only."
+  },
+  {
+    "question": "Example of a tightly coupled system is:",
+    "options": [
+      "Modular program",
+      "Reusable objects",
+      "Extensive interdependencies",
+      "Interface-based system"
+    ],
+    "answer": 2,
+    "explanation": "Tightly coupled means components highly depend on each other."
+  },
+  {
+    "question": "Garbage collection is:",
+    "options": [
+      "Manual memory allocation",
+      "Automatic memory management",
+      "Code optimization",
+      "Data encryption"
+    ],
+    "answer": 1,
+    "explanation": "Garbage collection frees unused memory automatically."
+  },
+  {
+    "question": "The keyword 'final' in Java means:",
+    "options": [
+      "Variable cannot be changed",
+      "Method cannot be overridden",
+      "Class cannot be extended",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "'final' applies to variables, methods, and classes."
+  },
+  {
+    "question": "Which of these is NOT an OOP language?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "COBOL"
+    ],
+    "answer": 3,
+    "explanation": "COBOL is procedural."
+  },
+  {
+    "question": "Which OOP principle emphasizes code reuse?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Abstraction",
+      "Inheritance"
+    ],
+    "answer": 3,
+    "explanation": "Inheritance allows reuse of existing code."
+  },
+  {
+    "question": "All objects of a class have:",
+    "options": [
+      "Same properties and methods",
+      "Different class definitions",
+      "Different methods",
+      "Different constructors"
+    ],
+    "answer": 0,
+    "explanation": "Objects share class definition."
+  },
+  {
+    "question": "Which of the following is NOT a principle of OOP?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Compilation",
+      "Polymorphism"
+    ],
+    "answer": 2,
+    "explanation": "Compilation is not an OOP principle."
+  },
+  {
+    "question": "What keyword is used to create a new object in Java?",
+    "options": [
+      "new",
+      "create",
+      "class",
+      "object"
+    ],
+    "answer": 0,
+    "explanation": "'new' is used to instantiate objects."
+  },
+  {
+    "question": "What concept of OOP hides internal data from outside access?",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Abstraction",
+      "Encapsulation"
+    ],
+    "answer": 3,
+    "explanation": "Encapsulation hides internal details by restricting access."
+  },
+  {
+    "question": "Which OOP feature allows different methods with same name but different signatures?",
+    "options": [
+      "Method Overriding",
+      "Method Overloading",
+      "Inheritance",
+      "Polymorphism"
+    ],
+    "answer": 1,
+    "explanation": "Method overloading allows same method name with different parameters."
+  },
+  {
+    "question": "What is ‘inheritance’ used for?",
+    "options": [
+      "Creating new classes from existing ones",
+      "Creating objects",
+      "Hiding data",
+      "Executing code"
+    ],
+    "answer": 0,
+    "explanation": "Inheritance allows reuse and extension of existing class behavior."
+  },
+  {
+    "question": "What does ‘polymorphism’ mean in OOP?",
+    "options": [
+      "Many forms of data types",
+      "Same function name with different behaviors",
+      "Inheritance of data",
+      "Encapsulation of data"
+    ],
+    "answer": 1,
+    "explanation": "Polymorphism enables functions to operate differently based on input or object."
+  },
+  {
+    "question": "Which access modifier allows access only within the same class?",
+    "options": [
+      "Public",
+      "Private",
+      "Protected",
+      "Default"
+    ],
+    "answer": 1,
+    "explanation": "Private members are accessible within the class only."
+  },
+  {
+    "question": "Which of the following is a valid OOP language?",
+    "options": [
+      "C",
+      "Python",
+      "Machine code",
+      "Assembly language"
+    ],
+    "answer": 1,
+    "explanation": "Python supports OOP concepts."
+  },
+  {
+    "question": "The 'this' keyword in Java refers to:",
+    "options": [
+      "Current method",
+      "Current object",
+      "Current class",
+      "Current variable"
+    ],
+    "answer": 1,
+    "explanation": "'this' references the current object."
+  },
+  {
+    "question": "Which of the following is true about constructors?",
+    "options": [
+      "Do not have return types",
+      "Have void return type",
+      "Have int return type",
+      "Never executed automatically"
+    ],
+    "answer": 0,
+    "explanation": "Constructors do not specify return types and are called automatically."
+  },
+  {
+    "question": "Objects are instances of:",
+    "options": [
+      "Classes",
+      "Methods",
+      "Packages",
+      "Functions"
+    ],
+    "answer": 0,
+    "explanation": "Objects are instances of classes."
+  },
+  {
+    "question": "Which keyword is used to declare inheritance in Java?",
+    "options": [
+      "inherits",
+      "extends",
+      "implements",
+      "inheritsFrom"
+    ],
+    "answer": 1,
+    "explanation": "'extends' declares inheritance."
+  },
+  {
+    "question": "Which method is called when an object is created?",
+    "options": [
+      "main()",
+      "constructor",
+      "destructor",
+      "finalize()"
+    ],
+    "answer": 1,
+    "explanation": "Constructor initializes the object."
+  },
+  {
+    "question": "What type of interaction is provided by polymorphism?",
+    "options": [
+      "Static",
+      "Dynamic",
+      "Abstract",
+      "Encapsulated"
+    ],
+    "answer": 1,
+    "explanation": "Polymorphism allows dynamic method binding."
+  },
+  {
+    "question": "Abstract class can have:",
+    "options": [
+      "Abstract methods only",
+      "Concrete methods only",
+      "Both abstract and concrete methods",
+      "No methods"
+    ],
+    "answer": 2,
+    "explanation": "Abstract classes may have both method types."
+  },
+  {
+    "question": "The process of defining multiple methods with the same name but different parameters is called:",
+    "options": [
+      "Overriding",
+      "Overloading",
+      "Inheritance",
+      "Binding"
+    ],
+    "answer": 1,
+    "explanation": "Overloading is multiple methods with the same name but different signatures."
+  },
+  {
+    "question": "Which of the following is NOT a basic OOP pillar?",
+    "options": [
+      "Abstraction",
+      "Encapsulation",
+      "Compilation",
+      "Inheritance"
+    ],
+    "answer": 2,
+    "explanation": "Compilation is not an OOP principle."
+  },
+  {
+    "question": "Which feature allows program components to communicate while keeping separate functionalities?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Abstraction",
+      "Inheritance"
+    ],
+    "answer": 2,
+    "explanation": "Abstraction hides complexity and exposes essentials."
+  },
+  {
+    "question": "Multiple inheritance is supported directly by:",
+    "options": [
+      "Java classes",
+      "Java interfaces",
+      "C# classes",
+      "Python classes"
+    ],
+    "answer": 1,
+    "explanation": "Java interfaces support multiple inheritance; classes do not."
+  },
+  {
+    "question": "Which modifier allows access in derived classes and package?",
+    "options": [
+      "Public",
+      "Private",
+      "Protected",
+      "Default"
+    ],
+    "answer": 2,
+    "explanation": "Protected members are accessible within package & subclasses."
+  },
+  {
+    "question": "Which of these is NOT correct about interfaces?",
+    "options": [
+      "Contains abstract methods",
+      "Cannot be instantiated",
+      "Supports multiple inheritance",
+      "Can have constructors"
+    ],
+    "answer": 3,
+    "explanation": "Interfaces cannot have constructors."
+  },
+  {
+    "question": "Which keyword prohibits method overriding?",
+    "options": [
+      "static",
+      "final",
+      "abstract",
+      "native"
+    ],
+    "answer": 1,
+    "explanation": "'final' prevents further overriding."
+  },
+  {
+    "question": "Overriding requires:",
+    "options": [
+      "Same method name and parameters",
+      "Same method name but different parameters",
+      "Different method names",
+      "Different return type always"
+    ],
+    "answer": 0,
+    "explanation": "Overriding methods must have the same signature."
+  },
+  {
+    "question": "What is the visibility of private members?",
+    "options": [
+      "Within class only",
+      "Within package",
+      "Within subclass only",
+      "Public access"
+    ],
+    "answer": 0,
+    "explanation": "Private members accessible within the class alone."
+  },
+  {
+    "question": "Which OOP concept is the binding of data and functions?",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "answer": 2,
+    "explanation": "Encapsulation binds data & methods."
+  },
+  {
+    "question": "Which of these is a public class member?",
+    "options": [
+      "Accessible anywhere",
+      "Accessible within class only",
+      "Accessible within package only",
+      "Accessible by subclass only"
+    ],
+    "answer": 0,
+    "explanation": "Public members are accessible universally."
+  },
+  {
+    "question": "Which of the following can be overloaded?",
+    "options": [
+      "Functions",
+      "Operators",
+      "Both",
+      "Neither"
+    ],
+    "answer": 2,
+    "explanation": "Functions and operators can be overloaded."
+  },
+  {
+    "question": "Abstract class cannot be:",
+    "options": [
+      "Instantiated",
+      "Inherited",
+      "Extended",
+      "Overridden"
+    ],
+    "answer": 0,
+    "explanation": "Abstract classes can't be instantiated."
+  }
+]

@@ -1,0 +1,968 @@
+[
+  {
+    "question": "What does SDLC stand for?",
+    "options": [
+      "Software Design Life Cycle",
+      "Software Development Life Cycle",
+      "System Development Life Cycle",
+      "System Design Life Cycle"
+    ],
+    "answer": 1,
+    "explanation": "SDLC stands for Software Development Life Cycle."
+  },
+  {
+    "question": "Which is the first phase of SDLC?",
+    "options": ["Design", "Requirement Analysis", "Implementation", "Testing"],
+    "answer": 1,
+    "explanation": "Requirement analysis is the initial phase where requirements are gathered."
+  },
+  {
+    "question": "Waterfall model is an example of:",
+    "options": [
+      "Iterative model",
+      "Spiral model",
+      "Linear sequential model",
+      "Incremental model"
+    ],
+    "answer": 2,
+    "explanation": "Waterfall is a linear and sequential SDLC model."
+  },
+  {
+    "question": "Which phase follows coding in SDLC?",
+    "options": ["Testing", "Design", "Requirement gathering", "Deployment"],
+    "answer": 0,
+    "explanation": "Testing is performed after coding to verify software."
+  },
+  {
+    "question": "What is 'Unit Testing'?",
+    "options": [
+      "Testing individual components of software",
+      "Testing complete system",
+      "Testing usability",
+      "Testing integration of modules"
+    ],
+    "answer": 0,
+    "explanation": "Unit testing involves testing individual modules/components."
+  },
+  {
+    "question": "Which model involves repeated cycles or spirals?",
+    "options": ["Waterfall", "Spiral", "V-Model", "RAD"],
+    "answer": 1,
+    "explanation": "Spiral model is iterative with repeated phases."
+  },
+  {
+    "question": "Reverse engineering is used for:",
+    "options": [
+      "Creating new software",
+      "Analyzing existing software",
+      "Testing software",
+      "Deploying software"
+    ],
+    "answer": 1,
+    "explanation": "Reverse engineering analyzes and understands existing software."
+  },
+  {
+    "question": "Which of the following is NOT a software development model?",
+    "options": ["Agile", "RAD", "Waterfall", "EEPROM"],
+    "answer": 3,
+    "explanation": "EEPROM is a type of memory, not a development model."
+  },
+  {
+    "question": "What is the main goal of Software Engineering?",
+    "options": [
+      "Write code faster",
+      "Develop high-quality software efficiently",
+      "Make the interface colorful",
+      "Use latest programming languages"
+    ],
+    "answer": 1,
+    "explanation": "Software engineering aims for efficient and quality software development."
+  },
+  {
+    "question": "In the Agile model, development is:",
+    "options": [
+      "Linear and sequential",
+      "Incremental and iterative",
+      "No planning involved",
+      "Limited to small projects only"
+    ],
+    "answer": 1,
+    "explanation": "Agile development is iterative and incremental."
+  },
+  {
+    "question": "Verification in Software Testing means:",
+    "options": [
+      "Checking if the product meets requirements",
+      "Validation of software correctness",
+      "Code debugging",
+      "Performance testing"
+    ],
+    "answer": 0,
+    "explanation": "Verification ensures the software meets specified requirements."
+  },
+  {
+    "question": "Which document specifies functional requirements?",
+    "options": [
+      "SRS (Software Requirements Specification)",
+      "Design document",
+      "Test plan",
+      "User manual"
+    ],
+    "answer": 0,
+    "explanation": "SRS details the functional and non-functional requirements."
+  },
+  {
+    "question": "Beta testing is conducted:",
+    "options": [
+      "By developers",
+      "By external users",
+      "Before alpha testing",
+      "After deployment"
+    ],
+    "answer": 1,
+    "explanation": "Beta testing involves real users testing the software."
+  },
+  {
+    "question": "What is the purpose of software maintenance?",
+    "options": [
+      "Fix defects and improve performance",
+      "Design software",
+      "Write new software",
+      "Test software"
+    ],
+    "answer": 0,
+    "explanation": "Maintenance involves updating and fixing software after deployment."
+  },
+  {
+    "question": "Which is NOT a software testing type?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "Alpha testing",
+      "Cooking testing"
+    ],
+    "answer": 3,
+    "explanation": "Cooking testing is not a software testing type."
+  },
+  {
+    "question": "Mock-up or prototype is used in which phase?",
+    "options": ["Requirement analysis", "Design", "Implementation", "Testing"],
+    "answer": 1,
+    "explanation": "Prototyping is done during design to visualize software."
+  },
+  {
+    "question": "Who is responsible for code quality?",
+    "options": ["Project Manager", "Tester", "Developer", "End User"],
+    "answer": 2,
+    "explanation": "Developers write and initially check code quality."
+  },
+  {
+    "question": "Which type of software testing involves external users?",
+    "options": [
+      "Alpha testing",
+      "Beta testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": 1,
+    "explanation": "Beta testing is done by customers or users."
+  },
+  {
+    "question": "What is code refactoring?",
+    "options": [
+      "Rewriting code to improve structure",
+      "Writing new code",
+      "Deleting code",
+      "Debugging code"
+    ],
+    "answer": 0,
+    "explanation": "Refactoring improves code without changing functionality."
+  },
+  {
+    "question": "The main goal of testing is to:",
+    "options": [
+      "Find defects",
+      "Write documentation",
+      "Design software",
+      "Deploy software"
+    ],
+    "answer": 0,
+    "explanation": "Testing aims to detect bugs and defects."
+  },
+  {
+    "question": "Which SDLC model focuses on rapid prototyping?",
+    "options": ["Waterfall", "RAD", "Agile", "Spiral"],
+    "answer": 1,
+    "explanation": "RAD (Rapid Application Development) uses prototyping."
+  },
+  {
+    "question": "Integration testing tests:",
+    "options": [
+      "Individual modules",
+      "Combined modules",
+      "Performance",
+      "Security"
+    ],
+    "answer": 1,
+    "explanation": "Integration testing checks interaction between modules."
+  },
+  {
+    "question": "System testing is:",
+    "options": [
+      "Testing the entire system",
+      "Testing individual functions",
+      "Testing code only",
+      "Testing user manuals"
+    ],
+    "answer": 0,
+    "explanation": "System testing validates the whole system."
+  },
+  {
+    "question": "What does ‘Alpha Testing’ mean?",
+    "options": [
+      "Testing by developers",
+      "Testing by end-users",
+      "Testing by external clients",
+      "Testing after deployment"
+    ],
+    "answer": 0,
+    "explanation": "Alpha testing is done internally by developers."
+  },
+  {
+    "question": "Which of these is NOT a Waterfall phase?",
+    "options": [
+      "Requirement Analysis",
+      "Design",
+      "Coding",
+      "Deployment",
+      "Iteration"
+    ],
+    "answer": 4,
+    "explanation": "Waterfall is linear and non-iterative."
+  },
+  {
+    "question": "Which software engineering principle promotes reusing code?",
+    "options": ["Modularity", "Reusability", "Testability", "Maintainability"],
+    "answer": 1,
+    "explanation": "Reusability encourages using existing code."
+  },
+  {
+    "question": "Maintenance phase involves:",
+    "options": [
+      "Correcting faults",
+      "Adapting software",
+      "Improving performance",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Maintenance covers all these activities."
+  },
+  {
+    "question": "What is a ‘Use Case’ in software engineering?",
+    "options": [
+      "A software bug",
+      "User interaction scenario",
+      "Deployment plan",
+      "Test case"
+    ],
+    "answer": 1,
+    "explanation": "Use case describes how users interact with software."
+  },
+  {
+    "question": "V-model in SDLC is also called:",
+    "options": [
+      "Verification and Validation Model",
+      "Prototyping Model",
+      "Waterfall Model",
+      "Incremental Model"
+    ],
+    "answer": 0,
+    "explanation": "V-model emphasizes verification and validation."
+  },
+  {
+    "question": "What is the primary goal of software engineering?",
+    "options": [
+      "Writing code",
+      "Developing software systematically",
+      "Designing hardware",
+      "Testing hardware"
+    ],
+    "answer": 1,
+    "explanation": "Software engineering focuses on developing software systematically and efficiently."
+  },
+  {
+    "question": "Which model is also known as the linear sequential model?",
+    "options": ["Agile model", "Waterfall model", "Spiral model", "V-Model"],
+    "answer": 1,
+    "explanation": "Waterfall model is a linear, sequential approach to software development."
+  },
+  {
+    "question": "In the Waterfall model, which phase comes immediately after the requirements analysis?",
+    "options": ["Design", "Implementation", "Testing", "Maintenance"],
+    "answer": 0,
+    "explanation": "The design phase follows requirements analysis in the Waterfall model."
+  },
+  {
+    "question": "What does UML stand for?",
+    "options": [
+      "Unified Modeling Language",
+      "Universal Modeling Language",
+      "Unified Machine Language",
+      "Universal Machine Language"
+    ],
+    "answer": 0,
+    "explanation": "UML stands for Unified Modeling Language used for software design."
+  },
+  {
+    "question": "Which of the following is NOT a software development life cycle (SDLC) phase?",
+    "options": ["Requirement gathering", "Coding", "Marketing", "Testing"],
+    "answer": 2,
+    "explanation": "Marketing is not part of SDLC phases."
+  },
+  {
+    "question": "What is the main advantage of the Agile model?",
+    "options": [
+      "Fixed requirements",
+      "Flexibility to change requirements",
+      "No testing required",
+      "No documentation"
+    ],
+    "answer": 1,
+    "explanation": "Agile model allows flexible requirements and adaptability."
+  },
+  {
+    "question": "Which testing technique involves testing individual units or components?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 0,
+    "explanation": "Unit testing focuses on individual modules or components."
+  },
+  {
+    "question": "What is the main purpose of a software engineer?",
+    "options": [
+      "Develop and maintain software",
+      "Design hardware",
+      "Manage projects",
+      "Test hardware"
+    ],
+    "answer": 0,
+    "explanation": "Software engineer's primary role is development and maintenance of software."
+  },
+  {
+    "question": "What does CASE stand for?",
+    "options": [
+      "Computer-Aided Software Engineering",
+      "Control Aided Science and Engineering",
+      "Cost Aided System Experiments",
+      "None of the mentioned"
+    ],
+    "answer": 0,
+    "explanation": "CASE tools help in automating software engineering tasks."
+  },
+  {
+    "question": "Which phase in SDLC involves converting design into code?",
+    "options": ["Testing", "Coding", "Design", "Planning"],
+    "answer": 1,
+    "explanation": "Coding phase converts design specifications to executable code."
+  },
+  {
+    "question": "Which testing method is done by the end user to check the system?",
+    "options": [
+      "Alpha testing",
+      "Beta testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": 1,
+    "explanation": "Beta testing is done by end users in a real environment."
+  },
+  {
+    "question": "Maintenance phase does NOT include:",
+    "options": [
+      "Correcting defects",
+      "Updating software",
+      "System development",
+      "Improving software"
+    ],
+    "answer": 2,
+    "explanation": "System development is part of SDLC, not maintenance."
+  },
+  {
+    "question": "Which model uses repetitive iterations of development?",
+    "options": ["Waterfall", "Spiral", "V-Model", "RAD"],
+    "answer": 1,
+    "explanation": "Spiral model cycles through phases iteratively."
+  },
+  {
+    "question": "Which of these is a dynamic testing technique?",
+    "options": [
+      "Code inspection",
+      "Unit testing",
+      "Walkthrough",
+      "Design review"
+    ],
+    "answer": 1,
+    "explanation": "Unit testing is a dynamic testing technique involving code execution."
+  },
+  {
+    "question": "Which artifact is created after requirements analysis?",
+    "options": ["Test plan", "SRS Document", "Code", "Design document"],
+    "answer": 1,
+    "explanation": "Software Requirement Specification defines detailed functional requirements."
+  },
+  {
+    "question": "Who is called the father of Software Engineering?",
+    "options": [
+      "Alan Turing",
+      "Frederick Brooks",
+      "Barry Boehm",
+      "Watts Humphrey"
+    ],
+    "answer": 2,
+    "explanation": "Barry Boehm is known as the father of software engineering."
+  },
+  {
+    "question": "Which is NOT a characteristic of good software?",
+    "options": ["Maintainability", "Correctness", "Rigidity", "Reliability"],
+    "answer": 2,
+    "explanation": "Rigidity is undesirable; software should be flexible."
+  },
+  {
+    "question": "Which diagram is used to model the behavior of a system?",
+    "options": [
+      "Use Case diagram",
+      "Class diagram",
+      "Component diagram",
+      "Deployment diagram"
+    ],
+    "answer": 0,
+    "explanation": "Use Case diagrams model system interactions with users."
+  },
+  {
+    "question": "Verification ensures the product is:",
+    "options": ["Built correctly", "The correct product", "Faulty", "Usable"],
+    "answer": 0,
+    "explanation": "Verification checks if the system meets specifications."
+  },
+  {
+    "question": "Software re-engineering involves:",
+    "options": [
+      "Creating new systems",
+      "Analyzing and modifying existing software",
+      "Introduction",
+      "Testing"
+    ],
+    "answer": 1,
+    "explanation": "Re-engineering improves existing software."
+  },
+  {
+    "question": "Software project scheduling is:",
+    "options": [
+      "Estimation of effort",
+      "Allocation of effort over time",
+      "Coding phase",
+      "Design phase"
+    ],
+    "answer": 1,
+    "explanation": "Scheduling involves distributing effort across timeline."
+  },
+  {
+    "question": "Testing strategy that uses code structure is:",
+    "options": [
+      "Black-box testing",
+      "White-box testing",
+      "Alpha testing",
+      "Beta testing"
+    ],
+    "answer": 1,
+    "explanation": "White-box testing examines internal code structure."
+  },
+  {
+    "question": "Function point is a measure of:",
+    "options": [
+      "Code size",
+      "Software functionality",
+      "Lines of code",
+      "Memory usage"
+    ],
+    "answer": 1,
+    "explanation": "Function points estimate software functionality size."
+  },
+  {
+    "question": "Extreme Programming belongs to:",
+    "options": [
+      "Waterfall model",
+      "Agile methodologies",
+      "V-Model",
+      "Spiral model"
+    ],
+    "answer": 1,
+    "explanation": "Extreme Programming is an Agile software development method."
+  },
+  {
+    "question": "CASE tools are primarily used for:",
+    "options": [
+      "Hardware design",
+      "Software design and development",
+      "Project management",
+      "Code execution"
+    ],
+    "answer": 1,
+    "explanation": "CASE tools assist software development and maintenance."
+  },
+  {
+    "question": "The step following system testing is:",
+    "options": [
+      "Acceptance Testing",
+      "Unit Testing",
+      "Integration Testing",
+      "Maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Acceptance testing validates software with user requirements."
+  },
+  {
+    "question": "Software configuration management deals with:",
+    "options": [
+      "Version control and change management",
+      "Testing",
+      "Coding",
+      "Documentation"
+    ],
+    "answer": 0,
+    "explanation": "It manages software versions and changes."
+  },
+  {
+    "question": "Rapid Application Development is aimed at:",
+    "options": [
+      "Slow and steady releases",
+      "Fast prototyping and development",
+      "No testing",
+      "Detailed documentation"
+    ],
+    "answer": 1,
+    "explanation": "RAD accelerates development with prototyping."
+  },
+  {
+    "question": "Software metrics aid in:",
+    "options": [
+      "Project estimation and quality control",
+      "Writing code",
+      "Manpower hiring",
+      "Hardware selection"
+    ],
+    "answer": 0,
+    "explanation": "Metrics help measure and improve project attributes."
+  },
+  {
+    "question": "Which is an example of non-functional requirement?",
+    "options": [
+      "User authentication",
+      "System speed",
+      "Data input format",
+      "Search function"
+    ],
+    "answer": 1,
+    "explanation": "System speed is a non-functional requirement."
+  },
+  {
+    "question": "A 'use case' describes:",
+    "options": [
+      "Software bugs",
+      "User interactions with system",
+      "Hardware specifications",
+      "Project schedule"
+    ],
+    "answer": 1,
+    "explanation": "Use cases describe how users interact with the system to achieve goals."
+  },
+  {
+    "question": "Who is responsible for gathering requirements?",
+    "options": ["Developer", "Tester", "Business Analyst", "Project Manager"],
+    "answer": 2,
+    "explanation": "Business Analysts elicit and analyze requirements."
+  },
+  {
+    "question": "Code debugging involves:",
+    "options": [
+      "Writing new code",
+      "Finding and fixing errors",
+      "Designing system",
+      "Testing requirements"
+    ],
+    "answer": 1,
+    "explanation": "Debugging detects and fixes bugs in code."
+  },
+  {
+    "question": "Which testing is performed by developers?",
+    "options": [
+      "Alpha testing",
+      "Beta testing",
+      "Unit testing",
+      "Installation testing"
+    ],
+    "answer": 2,
+    "explanation": "Unit testing is done by developers during coding."
+  },
+  {
+    "question": "Maintenance phase does NOT include:",
+    "options": [
+      "Corrective maintenance",
+      "Adaptive maintenance",
+      "Perfective maintenance",
+      "Development maintenance"
+    ],
+    "answer": 3,
+    "explanation": "Development is not a part of maintenance."
+  },
+  {
+    "question": "A milestone in project management refers to:",
+    "options": [
+      "Completion of a phase",
+      "Start of coding",
+      "Start of maintenance",
+      "Project cancellation"
+    ],
+    "answer": 0,
+    "explanation": "Milestones mark important completion points."
+  },
+  {
+    "question": "Test case contains:",
+    "options": [
+      "Test inputs and expected outputs",
+      "Software requirements",
+      "User manuals",
+      "Design diagrams"
+    ],
+    "answer": 0,
+    "explanation": "Test cases specify test inputs and expected results."
+  },
+  {
+    "question": "Which is not a phase of software testing?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "Packaging",
+      "System testing"
+    ],
+    "answer": 2,
+    "explanation": "Packaging is not a testing phase."
+  },
+  {
+    "question": "Which tool assists in automatic code generation?",
+    "options": ["Compiler", "Interpreter", "CASE tool", "Debugger"],
+    "answer": 2,
+    "explanation": "CASE tools help automate software development."
+  },
+  {
+    "question": "Which is NOT a role of a software project manager?",
+    "options": ["Planning", "Coding", "Scheduling", "Monitoring"],
+    "answer": 1,
+    "explanation": "Managers plan and monitor, but do not code."
+  },
+  {
+    "question": "Which software model is best for large, complex projects?",
+    "options": ["Waterfall", "Spiral", "RAD", "Agile"],
+    "answer": 1,
+    "explanation": "Spiral model handles risk for complex projects."
+  },
+  {
+    "question": "Project scope defines:",
+    "options": [
+      "Project cost",
+      "Project boundaries and deliverables",
+      "Team size",
+      "Testing types"
+    ],
+    "answer": 1,
+    "explanation": "Scope defines the extent and goals of the project."
+  },
+  {
+    "question": "Function points measure:",
+    "options": [
+      "Program length",
+      "Software functionality",
+      "Number of bugs",
+      "Team size"
+    ],
+    "answer": 1,
+    "explanation": "Function points estimate functionality size."
+  },
+  {
+    "question": "What is software reliability?",
+    "options": [
+      "Ability to perform under stated conditions",
+      "Code length",
+      "Number of users",
+      "Testing success rate"
+    ],
+    "answer": 0,
+    "explanation": "Reliability is the probability software performs without failure."
+  },
+  {
+    "question": "Software defect density is:",
+    "options": [
+      "Defects per size of software",
+      "Number of users",
+      "Lines of code",
+      "Defects per tester"
+    ],
+    "answer": 0,
+    "explanation": "Measures defects relative to software size."
+  },
+  {
+    "question": "Software version control helps:",
+    "options": [
+      "Debugging",
+      "Track changes and manage revisions",
+      "Programming",
+      "Testing"
+    ],
+    "answer": 1,
+    "explanation": "Version control tracks and manages code changes."
+  },
+  {
+    "question": "Requirement traceability matrix links:",
+    "options": [
+      "Requirements and tests",
+      "Design and code",
+      "Code and bugs",
+      "Users and requirements"
+    ],
+    "answer": 0,
+    "explanation": "RTM links requirements with test cases."
+  },
+  {
+    "question": "Which of these is NOT a part of software maintenance?",
+    "options": ["Corrective", "Adaptive", "Preventive", "Distributive"],
+    "answer": 3,
+    "explanation": "Distributive maintenance is not a recognized type."
+  },
+  {
+    "question": "Which software model suits well to changing requirements?",
+    "options": ["Waterfall", "Spiral", "Agile", "Build and Fix"],
+    "answer": 2,
+    "explanation": "Agile supports adaptability."
+  },
+  {
+    "question": "Good software design includes:",
+    "options": [
+      "Coupling and cohesion",
+      "Code repetition",
+      "Complex dependencies",
+      "No documentation"
+    ],
+    "answer": 0,
+    "explanation": "Low coupling and high cohesion are desirable."
+  },
+  {
+    "question": "An activity that estimates time and resources is:",
+    "options": ["Project planning", "Coding", "Testing", "Documentation"],
+    "answer": 0,
+    "explanation": "Planning estimates effort and schedule."
+  },
+  {
+    "question": "Software metric is used to measure:",
+    "options": [
+      "Code length",
+      "Project performance",
+      "Quality attributes",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Metrics assess different aspects for improvement."
+  },
+  {
+    "question": "Alpha and beta testing are part of:",
+    "options": [
+      "System testing",
+      "Acceptance testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": 1,
+    "explanation": "Alpha and beta testing are acceptance tests."
+  },
+  {
+    "question": "Software feasibility study identifies:",
+    "options": [
+      "Project budget",
+      "Technical and economic viability",
+      "User manual requirements",
+      "Database design"
+    ],
+    "answer": 1,
+    "explanation": "Feasibility checks practicality of project."
+  },
+  {
+    "question": "Which document describes software functionality?",
+    "options": ["SRS", "User manual", "Test plan", "Design document"],
+    "answer": 0,
+    "explanation": "SRS specifies requirements."
+  },
+  {
+    "question": "The phase where software is handed over to users is:",
+    "options": ["Deployment", "Implementation", "Testing", "Maintenance"],
+    "answer": 0,
+    "explanation": "Deployment involves release."
+  },
+  {
+    "question": "Reverse engineering helps in:",
+    "options": [
+      "Analyzing legacy software",
+      "Writing new code",
+      "User training",
+      "Bug fixing"
+    ],
+    "answer": 0,
+    "explanation": "Reverse engineering understands existing code structure."
+  },
+  {
+    "question": "CASE tools assist in:",
+    "options": ["Documentation", "Design", "Code generation", "All of these"],
+    "answer": 3,
+    "explanation": "CASE tools automate multiple activities."
+  },
+  {
+    "question": "Feature of Agile model includes:",
+    "options": [
+      "Customer collaboration",
+      "Heavy documentation",
+      "One-time delivery",
+      "Strict phase completion"
+    ],
+    "answer": 0,
+    "explanation": "Agile focuses on customer collaboration and flexibility."
+  },
+  {
+    "question": "Which is the key characteristic of Agile methodology?",
+    "options": [
+      "Fixed scope",
+      "Incremental delivery",
+      "No customer involvement",
+      "Final delivery only"
+    ],
+    "answer": 1,
+    "explanation": "Agile focuses on iterative, incremental delivery with frequent customer feedback."
+  },
+  {
+    "question": "In SDLC, which phase focuses on software design?",
+    "options": ["Requirement gathering", "Testing", "Coding", "System design"],
+    "answer": 3,
+    "explanation": "System design follows requirement analysis to define software's architecture."
+  },
+  {
+    "question": "The spiral model emphasizes:",
+    "options": [
+      "Risk assessment",
+      "Linear development",
+      "No customer involvement",
+      "Rapid coding"
+    ],
+    "answer": 0,
+    "explanation": "Spiral model incorporates risk analysis at each iteration."
+  },
+  {
+    "question": "What is the main purpose of Regression Testing?",
+    "options": [
+      "Test new features",
+      "Check old parts after changes",
+      "Test performance",
+      "Check user interface"
+    ],
+    "answer": 1,
+    "explanation": "Regression testing ensures changes don't break existing functionality."
+  },
+  {
+    "question": "Sequence diagrams are used to model:",
+    "options": [
+      "Data flow",
+      "Object interactions over time",
+      "User interface",
+      "Class structure"
+    ],
+    "answer": 1,
+    "explanation": "Sequence diagrams show interactions between objects in chronological order."
+  },
+  {
+    "question": "Cyclomatic complexity measures:",
+    "options": [
+      "Test complexity",
+      "Code complexity",
+      "Project scope",
+      "Effort estimation"
+    ],
+    "answer": 1,
+    "explanation": "It measures the number of independent paths in code."
+  },
+  {
+    "question": "White box testing focuses on:",
+    "options": [
+      "Internal logic",
+      "User input",
+      "System behavior",
+      "Interface testing"
+    ],
+    "answer": 0,
+    "explanation": "Tests internal structure/code paths."
+  },
+  {
+    "question": "A ‘build’ is:",
+    "options": [
+      "Version of software",
+      "Software bug",
+      "User manual",
+      "Development tool"
+    ],
+    "answer": 0,
+    "explanation": "Build is a compiled version of the software."
+  },
+  {
+    "question": "Software documentation includes:",
+    "options": [
+      "User guides",
+      "Code comments",
+      "Design specifications",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Documentation covers all these aspects."
+  },
+  {
+    "question": "Which testing type validates system compliance with requirements?",
+    "options": [
+      "System testing",
+      "Acceptance testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": 1,
+    "explanation": "Acceptance testing verifies if software meets user needs."
+  },
+  {
+    "question": "The main focus of configuration management is:",
+    "options": [
+      "Code debugging",
+      "Version control",
+      "Software installation",
+      "User training"
+    ],
+    "answer": 1,
+    "explanation": "It manages changes and versions of software."
+  },
+  {
+    "question": "What is the purpose of a feasibility study?",
+    "options": [
+      "Check if software meets performance standards",
+      "Assess practicality of project",
+      "Develop software code",
+      "Test hardware"
+    ],
+    "answer": 1,
+    "explanation": "Feasibility studies analyze if a project is viable."
+  }
+]
